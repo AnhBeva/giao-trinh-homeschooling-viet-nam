@@ -1,0 +1,19 @@
+# Bảng thuật ngữ cốt lõi về Homeschooling
+
+> Dùng thuật ngữ để quan sát rõ hơn, hỏi đúng hơn và hành động có trách nhiệm hơn; không dùng thuật ngữ để dán nhãn trẻ, phụ huynh hoặc nhà trường.
+
+| Thuật ngữ | Nhóm | Định nghĩa ngắn | Bản chất cần hiểu | Ý nghĩa/khi nào quan trọng | Dấu hiệu nhận biết | Câu hỏi ứng dụng |
+|---|---|---|---|---|---|---|
+| Homeschooling | Mô hình | Gia đình chịu trách nhiệm chính trong giáo dục trẻ. | Dịch chuyển trách nhiệm thiết kế, tổ chức và kiểm chứng học tập. | Khi quyết định rời hoặc giảm phụ thuộc vào trường toàn thời gian. | Gia đình có chương trình, lịch, hồ sơ, đánh giá và cộng đồng học. | Ai chịu trách nhiệm giải trình cho tiến bộ của trẻ? |
+| Home education | Mô hình | Giáo dục do gia đình tổ chức, không nhất thiết diễn ra trong nhà. | “Nhà” là trung tâm trách nhiệm, không phải địa điểm duy nhất. | Khi trẻ học ở bảo tàng, thư viện, nhóm học, mentor, online. | Học diễn ra ở nhiều môi trường nhưng có mục tiêu chung. | Môi trường nào tạo trải nghiệm học tốt nhất? |
+| Unschooling | Triết lý | Học theo động lực và trải nghiệm tự nhiên của trẻ. | Tin vào sự tò mò nhưng cần môi trường giàu phản hồi. | Khi gia đình muốn giảm ép buộc và tăng tự chủ. | Trẻ có dự án thật, câu hỏi thật, người lớn quan sát kỹ. | Đây là tự chủ hay là thiếu cấu trúc? |
+| Hybrid homeschooling | Mô hình | Kết hợp gia đình, lớp nhỏ, online, mentor, trung tâm hoặc trường. | Một hệ sinh thái học tập thay vì một nguồn duy nhất. | Rất phù hợp bối cảnh đô thị Việt Nam nếu điều phối tốt. | Lịch học chia theo vai trò và bằng chứng tiến bộ. | Ai là người giữ bản đồ tổng thể? |
+| Agency | Năng lực | Khả năng đặt mục tiêu, phản tư và hành động có trách nhiệm. | Tự chủ không phải muốn gì làm nấy; nó cần năng lực và đạo đức. | Khi thiết kế mục tiêu học tập dài hạn. | Trẻ biết chọn, giải thích lý do, nhận phản hồi, sửa hướng. | Trẻ có quyền chọn trong phạm vi nào? |
+| Co-agency | Quan hệ học tập | Người học, phụ huynh, giáo viên, mentor và cộng đồng cùng kiến tạo tiến bộ. | Tự chủ của trẻ phát triển nhờ quan hệ hỗ trợ. | Khi xây mạng mentor, nhóm học hoặc cộng đồng. | Người lớn không kiểm soát thay nhưng cũng không bỏ mặc. | Ai đang hỗ trợ trẻ nhìn rõ hơn? |
+| Portfolio | Đánh giá | Hồ sơ sản phẩm, phản hồi và bằng chứng học tập. | Lưu dấu quá trình phát triển, không chỉ điểm số. | Khi cần chứng minh tiến bộ hoặc chuyển tiếp hệ học. | Có bài viết, dự án, ảnh, video, rubric, nhận xét, phiên bản sửa. | Bằng chứng nào cho thấy trẻ tiến bộ? |
+| Rubric | Đánh giá | Bảng tiêu chí mô tả mức độ chất lượng. | Biến kỳ vọng mơ hồ thành tiêu chí quan sát được. | Khi đánh giá viết, thuyết trình, dự án, kỹ năng. | Người học biết mức hiện tại và bước tiếp theo. | Tiêu chí này đo năng lực nào? |
+| Mastery learning | Phương pháp | Học đến khi đạt mức thành thạo trước khi đi tiếp. | Tốc độ linh hoạt nhưng chuẩn không bị hạ thấp. | Khi trẻ có lỗ hổng nền tảng. | Có kiểm tra lại, sửa lỗi, luyện tập phân tầng. | Trẻ cần thêm thời gian hay cần cách học khác? |
+| Socialization | Phát triển xã hội | Quá trình học tương tác, luật lệ, đồng cảm, hợp tác và xung đột. | Không chỉ là có bạn; là học sống trong nhiều quan hệ. | Khi thiết kế cộng đồng học tập. | Trẻ gặp nhiều nhóm tuổi, vai trò, bối cảnh, phản hồi. | Trẻ đang học kỹ năng xã hội nào, ở đâu? |
+| Trách nhiệm giải trình | Quản trị | Cơ chế chứng minh trẻ được học, được bảo vệ và tiến bộ. | Thiện chí cần đi cùng dữ kiện. | Khi gia đình tự tổ chức giáo dục. | Có hồ sơ, lịch kiểm tra, người ngoài phản hồi, chuẩn đối chiếu. | Ai có thể phát hiện sớm lỗ hổng? |
+| Chuẩn đầu ra | Chương trình | Mô tả điều người học cần biết và làm được. | Chuẩn là điểm neo, không phải nhà tù. | Khi cá nhân hóa chương trình nhưng vẫn cần tương thích chuyển tiếp. | Mục tiêu ghi bằng hành vi quan sát được. | Chuẩn nào là bắt buộc, chuẩn nào là lựa chọn? |
+
