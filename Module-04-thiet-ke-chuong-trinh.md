@@ -52,3 +52,35 @@
 - Chạy theo tài liệu nước ngoài mà bỏ ngôn ngữ, văn hóa và chuyển tiếp Việt Nam.
 - Lịch kín hoạt động nhưng không có thời gian phản tư và nghỉ.
 
+## 6. Tình huống ứng dụng
+
+Gia đình mua ba chương trình: toán Singapore, tiếng Anh Mỹ và khoa học online. Sau hai tháng, trẻ làm nhiều bài nhưng không có sản phẩm tích hợp, phụ huynh không biết trẻ đang tiến bộ theo chuẩn nào.
+
+**Vấn đề thật:** gia đình đang mua nội dung, chưa thiết kế chương trình. Nội dung trả lời “học cái gì”; chương trình trả lời “vì sao học, theo thứ tự nào, đến mức nào, bằng chứng gì”.
+
+## 7. Mô hình tư duy: Từ chuẩn đến trải nghiệm
+
+| Lớp thiết kế | Câu hỏi | Đầu ra |
+|---|---|---|
+| Chuẩn | Trẻ cần biết/làm được gì? | Mục tiêu đo được. |
+| Chẩn đoán | Trẻ đang ở đâu? | Điểm xuất phát. |
+| Lộ trình | Học gì trước/sau? | Bản đồ 12 tháng. |
+| Trải nghiệm | Học bằng hoạt động nào? | Buổi học, dự án, đọc, thí nghiệm. |
+| Bằng chứng | Chứng minh ra sao? | Portfolio, bài kiểm tra, sản phẩm. |
+
+## 8. Workflow thiết kế chương trình 12 tháng
+
+1. Chọn đường chuyển tiếp: trường Việt Nam, quốc tế, hybrid, tự học dài hạn.
+2. Lập bảng năng lực nền tảng theo tuổi/lớp.
+3. Đánh giá điểm hiện tại bằng bài mẫu hoặc mentor.
+4. Chọn 3 ưu tiên học thuật và 2 ưu tiên phát triển.
+5. Chia thành 6 chu kỳ, mỗi chu kỳ 6-8 tuần.
+6. Gắn mỗi chu kỳ với sản phẩm và rubric.
+
+## 9. Rubric đầu ra
+
+| Mức | Dấu hiệu |
+|---|---|
+| Chưa đạt | Chỉ có danh sách sách, khóa học hoặc ứng dụng. |
+| Đạt | Có mục tiêu, lịch, tài nguyên và đánh giá cơ bản. |
+| Xuất sắc | Có chuẩn đối chiếu, chẩn đoán đầu vào, sản phẩm theo chu kỳ, portfolio và phương án chuyển tiếp. |

@@ -56,3 +56,34 @@ Phần cần sản phẩm thật:
 Phần tôi sẽ đánh giá bằng rubric:
 ```
 
+## 6. Tình huống ứng dụng
+
+Phụ huynh giỏi tiếng Anh nên tự dạy con mọi buổi. Sau vài tuần, con trả lời miễn cưỡng, phụ huynh khó chịu vì con “không hợp tác”. Khi học với giáo viên khác, con lại tham gia tốt hơn.
+
+**Vấn đề thật:** phụ huynh nhầm năng lực chuyên môn với năng lực dạy học và nhầm quan hệ cha mẹ - con với quan hệ giáo viên - học sinh. Trong homeschooling, vai trò phải được thiết kế, không mặc định.
+
+## 7. Mô hình tư duy: Ma trận vai trò
+
+| Nhiệm vụ | Phụ huynh làm | Mentor làm | Trẻ làm | Nhóm bạn làm |
+|---|---|---|---|---|
+| Mục tiêu | Định hướng và ưu tiên. | Góp ý chuyên môn. | Nêu sở thích và khó khăn. | Tạo chuẩn ngang hàng. |
+| Dạy nền tảng | Có thể dạy phần phù hợp. | Dạy phần sâu/khó. | Luyện tập. | Cùng ôn và thực hành. |
+| Phản hồi | Quan sát thói quen. | Sửa kỹ thuật. | Tự sửa. | Phản hồi sản phẩm. |
+| Động lực | Giữ nhịp và quan hệ. | Tạo thử thách. | Chọn mục tiêu nhỏ. | Tạo cam kết xã hội. |
+
+## 8. Workflow chọn phương pháp
+
+1. Gọi tên mục tiêu học: biết, hiểu, làm, tạo sản phẩm hay hình thành thói quen.
+2. Xác định lỗi thường gặp của trẻ.
+3. Chọn phương pháp phù hợp mục tiêu, không chọn theo trào lưu.
+4. Quyết định ai là người dạy/phản hồi tốt nhất.
+5. Thiết kế một vòng học ngắn: dạy, làm, phản hồi, sửa.
+6. Đo xem quan hệ và kết quả có tốt hơn không.
+
+## 9. Rubric đầu ra
+
+| Mức | Dấu hiệu |
+|---|---|
+| Chưa đạt | Phụ huynh ôm hết hoặc giao hết cho app/khóa học. |
+| Đạt | Có phân vai giữa phụ huynh, trẻ, mentor và tài nguyên. |
+| Xuất sắc | Vai trò được điều chỉnh theo dữ kiện học tập, sức khỏe quan hệ và chất lượng phản hồi. |

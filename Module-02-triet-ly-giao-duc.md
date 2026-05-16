@@ -59,3 +59,41 @@ Cách kiểm chứng triết lý này bằng hành động:
 
 Triết lý giáo dục không phải khẩu hiệu treo tường. Nó là bộ giả định điều khiển quyết định hằng ngày: học gì, học với ai, học bao lâu, phản hồi thế nào, khi nào dừng, khi nào đổi hướng.
 
+## 6. Tình huống ứng dụng
+
+Phụ huynh nói muốn con “học tự do, không áp lực”, nhưng vẫn yêu cầu con hoàn thành chương trình toán vượt lớp, học tiếng Anh 2 giờ mỗi ngày và thi chứng chỉ trong 6 tháng. Trẻ bắt đầu né học, phụ huynh kết luận con thiếu kỷ luật.
+
+**Vấn đề thật:** triết lý tuyên bố và hệ vận hành mâu thuẫn. Gia đình đang dùng ngôn ngữ tự do nhưng thiết kế bằng nỗi sợ tụt chuẩn.
+
+## 7. Mô hình tư duy: Tam giác triết lý
+
+| Đỉnh | Câu hỏi | Nếu lệch |
+|---|---|---|
+| Hình ảnh con người | Ta tin trẻ phát triển bằng cơ chế nào? | Hoặc kiểm soát quá mức, hoặc bỏ mặc. |
+| Mục tiêu | Ta tối ưu năng lực, phẩm chất, chứng chỉ hay hạnh phúc? | Chương trình bị kéo về nhiều hướng. |
+| Thực hành | Lịch, phản hồi, kỷ luật có phản ánh triết lý không? | Trẻ nghe một đằng, sống một nẻo. |
+
+## 8. Workflow hành động
+
+1. Viết tuyên bố triết lý 12 dòng.
+2. Gạch chân mọi từ trừu tượng như “tự do”, “kỷ luật”, “toàn diện”.
+3. Chuyển mỗi từ thành hành vi quan sát được trong lịch tuần.
+4. Tìm mâu thuẫn giữa mục tiêu và lịch hiện tại.
+5. Chọn một mâu thuẫn để sửa trong 2 tuần.
+
+## 9. Bài tập phản hồi
+
+Đưa tuyên bố triết lý cho một người ngoài gia đình và hỏi:
+
+- Nếu nhìn lịch tuần của gia đình, họ có thấy triết lý này không?
+- Trẻ có quyền lựa chọn thật ở điểm nào?
+- Chuẩn nào là không thỏa hiệp?
+- Điều gì có thể gây hại nếu triết lý này bị đẩy quá xa?
+
+## 10. Rubric đầu ra
+
+| Mức | Dấu hiệu |
+|---|---|
+| Chưa đạt | Triết lý chỉ là khẩu hiệu hoặc tên phương pháp. |
+| Đạt | Triết lý có mục tiêu, vai trò phụ huynh, vai trò trẻ và cách dùng đánh giá. |
+| Xuất sắc | Triết lý được chuyển thành lịch, phản hồi, ranh giới, tiêu chí dừng và cách hỏi ý kiến trẻ. |

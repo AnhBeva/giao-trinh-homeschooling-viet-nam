@@ -47,3 +47,34 @@ Thay vì tuyên bố homeschooling cả năm, hãy chạy một chu kỳ 4 tuầ
 3. Tuần 3: thêm hoạt động xã hội ngoài nhà.
 4. Tuần 4: rà soát dữ kiện, cảm xúc, tiến bộ và quyết định điều chỉnh.
 
+## 6. Tình huống ứng dụng
+
+Gia đình có lịch học rất đẹp trên giấy: 8h toán, 9h tiếng Anh, 10h đọc, chiều dự án. Sau một tuần, lịch vỡ vì trẻ ngủ muộn, phụ huynh họp đột xuất, em nhỏ làm ồn và bài toán kéo dài quá lâu.
+
+**Vấn đề thật:** lịch được thiết kế như thời khóa biểu lý tưởng, chưa phải hệ vận hành trong gia đình thật với năng lượng, nhiễu, việc nhà và cảm xúc.
+
+## 7. Mô hình tư duy: Lịch bền vững
+
+| Thành phần | Câu hỏi | Chuẩn tốt |
+|---|---|---|
+| Năng lượng | Khi nào trẻ tỉnh táo nhất? | Môn khó đặt vào giờ năng lượng cao. |
+| Độ ma sát | Bắt đầu buổi học có dễ không? | Học liệu sẵn, mục tiêu rõ. |
+| Dự phòng | Nếu vỡ lịch thì sao? | Có block linh hoạt và ưu tiên tối thiểu. |
+| Quan hệ | Lịch có phá quan hệ không? | Có giờ kết nối không đánh giá. |
+| Phục hồi | Cơ thể có được nghỉ không? | Ngủ, vận động, chơi tự do. |
+
+## 8. Workflow thiết kế lịch 4 tuần
+
+1. Ghi lại nhịp thật của gia đình trong 3 ngày.
+2. Chọn 2 block nền tảng không thương lượng mỗi ngày.
+3. Đặt hoạt động xã hội và vận động trước khi lấp kín bằng môn học.
+4. Tạo “ngày nhẹ” để bù và phục hồi.
+5. Mỗi tối chỉ hỏi ba câu: xong gì, vướng gì, ngày mai giảm gì.
+
+## 9. Rubric đầu ra
+
+| Mức | Dấu hiệu |
+|---|---|
+| Chưa đạt | Lịch tham vọng, thường vỡ, gây xung đột. |
+| Đạt | Lịch có ưu tiên, thời gian nghỉ và hoạt động ngoài nhà. |
+| Xuất sắc | Lịch phản ánh năng lượng thật, có dự phòng, có dữ kiện hoàn thành và bảo vệ quan hệ gia đình. |

@@ -132,6 +132,7 @@ def collect_documents() -> list[Path]:
         "giao-trinh-homeschooling.md",
         "thuat-ngu-homeschooling.md",
         "cong-cu-thuc-hanh.md",
+        "khung-nang-luc-va-rubric.md",
     ]
     docs = [ROOT / name for name in order if (ROOT / name).exists()]
     docs.extend(sorted(ROOT.glob("Module-*.md")))
@@ -192,8 +193,8 @@ def main() -> None:
         <p class="lede">Một giáo trình first-principles giúp phụ huynh và nhà giáo dục hiểu homeschooling như một hệ thống trách nhiệm: mục tiêu, trẻ em, chương trình, phương pháp, đánh giá, xã hội hóa, pháp lý và quản trị rủi ro tại Việt Nam.</p>
         <div class="stats">
           <span><strong>{len(modules)}</strong> module chuyên sâu</span>
-          <span><strong>5</strong> tài liệu nền tảng</span>
-          <span><strong>15/05/2026</strong> mốc cập nhật pháp lý</span>
+          <span><strong>6</strong> tài liệu nền tảng</span>
+          <span><strong>16/05/2026</strong> mốc cập nhật pháp lý</span>
         </div>
       </section>
       <section class="module-grid" aria-label="Danh sách module">{module_cards}</section>
@@ -209,4 +210,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

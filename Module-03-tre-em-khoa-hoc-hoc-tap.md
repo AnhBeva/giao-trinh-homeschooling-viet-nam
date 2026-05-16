@@ -52,3 +52,35 @@ Chọn một khó khăn học tập của trẻ và tách thành bốn lớp:
 | Can thiệp nhỏ | Thử thay đổi gì trong 1 tuần? |
 | Bằng chứng | Dấu hiệu nào cho thấy hiệu quả hoặc không hiệu quả? |
 
+## 6. Tình huống ứng dụng
+
+Trẻ học lịch sử bằng cách đọc 10 trang sách rồi trả lời câu hỏi. Trẻ nhớ được trong ngày nhưng một tuần sau không giải thích được gì. Phụ huynh kết luận con “không có trí nhớ tốt”.
+
+**Vấn đề thật:** thiết kế học tập chỉ yêu cầu nhận diện thông tin, chưa có truy hồi, gắn nghĩa, kể lại, so sánh và sử dụng kiến thức trong bối cảnh mới.
+
+## 7. Mô hình tư duy: Chuỗi học sâu
+
+| Bước | Câu hỏi | Dấu hiệu |
+|---|---|---|
+| Chú ý | Trẻ có biết mình đang tìm điều gì không? | Có câu hỏi dẫn đường. |
+| Gắn nghĩa | Kiến thức liên hệ với điều gì đã biết? | Trẻ nêu ví dụ hoặc liên tưởng. |
+| Truy hồi | Trẻ có tự kéo kiến thức ra không? | Kể lại không nhìn sách. |
+| Phản hồi | Sai ở đâu, sửa thế nào? | Có phiên bản sửa. |
+| Chuyển giao | Trẻ dùng được ở tình huống khác không? | So sánh, giải thích, ứng dụng. |
+
+## 8. Workflow thiết kế một buổi học
+
+1. Viết một câu hỏi trung tâm.
+2. Dạy hoặc đọc phần cốt lõi trong 10-20 phút.
+3. Yêu cầu trẻ kể lại bằng lời của mình.
+4. Cho một bài tập nhỏ có lỗi có thể sửa.
+5. Phản hồi một điểm quan trọng nhất.
+6. Kết thúc bằng câu: “Con sẽ dùng điều này ở đâu?”
+
+## 9. Rubric đầu ra
+
+| Mức | Dấu hiệu |
+|---|---|
+| Chưa đạt | Buổi học chỉ gồm đọc/nghe và làm bài. |
+| Đạt | Có câu hỏi, luyện tập, phản hồi và nhắc lại. |
+| Xuất sắc | Có truy hồi, sản phẩm, phiên bản sửa, chuyển giao và dữ kiện về cảm xúc/năng lượng của trẻ. |

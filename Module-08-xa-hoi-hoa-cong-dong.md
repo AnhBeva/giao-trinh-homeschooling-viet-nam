@@ -47,3 +47,34 @@ Mỗi tháng, trẻ nên có:
 
 Khi dấu hiệu xã hội hoặc cảm xúc kéo dài và gây suy giảm sinh hoạt, gia đình nên tìm chuyên gia tâm lý, giáo dục đặc biệt hoặc bác sĩ phù hợp, thay vì chỉ đổi lịch học.
 
+## 6. Tình huống ứng dụng
+
+Trẻ có nhiều lớp online và một nhóm học cùng hai bạn thân. Phụ huynh tin rằng như vậy đã đủ xã hội hóa. Nhưng khi tham gia hoạt động thể thao, trẻ khó chờ lượt, khó nhận thua và né trao đổi với người lạ.
+
+**Vấn đề thật:** trẻ có tiếp xúc xã hội, nhưng thiếu đa dạng bối cảnh, vai trò, quy tắc và phản hồi. Xã hội hóa cần chất lượng tương tác, không chỉ số lượng người.
+
+## 7. Mô hình tư duy: Bản đồ quan hệ 5 vòng
+
+| Vòng | Vai trò | Câu hỏi kiểm tra |
+|---|---|---|
+| Gia đình | Gắn bó, trách nhiệm, xung đột gần. | Trẻ có việc nhà và tiếng nói không? |
+| Bạn thân | Chơi, chia sẻ, thân mật. | Có quan hệ ổn định không? |
+| Nhóm ngang tuổi | Hợp tác, cạnh tranh, luật nhóm. | Trẻ có học xử lý bất đồng không? |
+| Người lớn ngoài nhà | Chuẩn nghề nghiệp và phản hồi khách quan. | Trẻ có mentor/huấn luyện viên không? |
+| Cộng đồng | Công dân, văn hóa, đóng góp. | Trẻ có trải nghiệm nơi công cộng/dự án xã hội không? |
+
+## 8. Workflow thiết kế xã hội hóa 30 ngày
+
+1. Vẽ bản đồ 5 vòng hiện tại.
+2. Chọn vòng yếu nhất, không chọn hoạt động chỉ vì tiện.
+3. Đặt lịch đều đặn ít nhất 4 tuần.
+4. Quan sát một kỹ năng xã hội cụ thể: chờ lượt, lắng nghe, hợp tác, xin lỗi, bảo vệ ý kiến.
+5. Phản tư với trẻ bằng dữ kiện, không phán xét tính cách.
+
+## 9. Rubric đầu ra
+
+| Mức | Dấu hiệu |
+|---|---|
+| Chưa đạt | Xã hội hóa được hiểu là “có gặp người”. |
+| Đạt | Có hoạt động nhóm đều và quan hệ ngoài gia đình. |
+| Xuất sắc | Có bản đồ quan hệ đa tầng, mục tiêu kỹ năng xã hội, phản hồi và điều chỉnh khi trẻ gặp khó khăn. |

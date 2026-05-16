@@ -54,3 +54,33 @@ Nhận xét của người lớn:
 Bước tiếp theo:
 ```
 
+## 6. Tình huống ứng dụng
+
+Sau ba tháng homeschooling, phụ huynh nói con “tiến bộ nhiều” vì con vui hơn và đọc nhiều sách hơn. Khi một trường yêu cầu hồ sơ đầu vào, gia đình không có bài viết, bài toán, sản phẩm dự án, nhận xét mentor hay chuẩn đối chiếu.
+
+**Vấn đề thật:** tiến bộ cảm nhận chưa được chuyển thành bằng chứng có thể kiểm tra. Thiếu portfolio làm giảm khả năng điều chỉnh và chuyển tiếp.
+
+## 7. Mô hình tư duy: Bằng chứng ba lớp
+
+| Lớp | Câu hỏi | Ví dụ |
+|---|---|---|
+| Sản phẩm | Trẻ tạo ra gì? | Bài viết, bài giải, mô hình, thuyết trình. |
+| Quá trình | Trẻ đã sửa và học ra sao? | Bản nháp, phản hồi, phiên bản mới. |
+| Chuẩn | Sản phẩm đạt mức nào? | Rubric, bài chuẩn, nhận xét ngoài. |
+
+## 8. Workflow portfolio 4 tuần
+
+1. Chọn một năng lực trọng tâm.
+2. Thu sản phẩm đầu vào tuần 1.
+3. Dạy/luyện và phản hồi tuần 2.
+4. Yêu cầu phiên bản sửa tuần 3.
+5. Nhờ người ngoài gia đình nhận xét tuần 4.
+6. Viết kết luận: đạt gì, chưa đạt gì, bước tiếp theo.
+
+## 9. Rubric đầu ra
+
+| Mức | Dấu hiệu |
+|---|---|
+| Chưa đạt | Hồ sơ chỉ là ảnh hoạt động hoặc bài làm rời rạc. |
+| Đạt | Có mục tiêu, sản phẩm, nhận xét và lưu theo thời gian. |
+| Xuất sắc | Có phiên bản sửa, rubric, phản hồi ngoài, chuẩn đối chiếu và quyết định điều chỉnh chương trình. |

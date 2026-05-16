@@ -64,3 +64,35 @@ Viết một trang trả lời ba câu:
 | Tự do | Tự do chọn đường học đi cùng chuẩn và bằng chứng. | Tự do này tăng hay giảm năng lực của trẻ? |
 | Trách nhiệm | Trẻ cần được bảo vệ khỏi cả hệ thống cứng nhắc lẫn sự tùy tiện. | Ai phát hiện sớm nếu trẻ tụt lại hoặc cô lập? |
 
+## 6. Tình huống ứng dụng
+
+Một gia đình muốn rút con lớp 5 khỏi trường vì con chán học, sợ kiểm tra và thường nói “con ghét toán”. Phụ huynh tìm thấy một chương trình online quốc tế và muốn bắt đầu ngay. Dữ kiện còn thiếu: con hổng toán ở đâu, con có vấn đề với môn học hay với môi trường lớp, ai sẽ theo dõi lịch học, đường quay lại trường là gì, và con có mạng bạn bè nào ngoài lớp hiện tại.
+
+**Cách nhìn mới:** quyết định không phải “trường hay nhà”, mà là “chức năng giáo dục nào đang hỏng, chức năng nào cần thay thế, và bằng chứng nào bảo vệ quyền lợi trẻ”.
+
+## 7. Mô hình tư duy: 6 chức năng phải thay thế
+
+| Chức năng | Câu hỏi kiểm tra | Bằng chứng cần có |
+|---|---|---|
+| Mục tiêu | Trẻ cần đạt gì trong 6-12 tháng? | Mục tiêu học thuật, xã hội, sức khỏe. |
+| Chương trình | Học theo chuẩn nào? | Danh mục môn/năng lực và tài nguyên. |
+| Nhịp học | Ngày/tuần vận hành ra sao? | Lịch 4 tuần thử nghiệm. |
+| Phản hồi | Ai sửa lỗi và nâng chuẩn? | Mentor, rubric, bài sửa. |
+| Xã hội hóa | Trẻ sống cùng ai ngoài gia đình? | Lịch nhóm, hoạt động, quan hệ. |
+| Chuyển tiếp | Nếu đổi hướng thì đi đâu? | Hồ sơ, trường liên hệ, chứng chỉ. |
+
+## 8. Workflow hành động
+
+1. Ghi vấn đề thật bằng dữ kiện, không dùng nhãn cảm xúc.
+2. Chấm 6 chức năng trên theo mức: chưa có, có một phần, đủ dùng.
+3. Chọn 2 chức năng yếu nhất để xử lý trước khi rút khỏi trường dài hạn.
+4. Chạy thử 4 tuần với lịch nhẹ và portfolio.
+5. Quyết định tiếp tục, hybrid hay quay lại trường dựa trên dữ kiện.
+
+## 9. Rubric đầu ra
+
+| Mức | Dấu hiệu |
+|---|---|
+| Chưa đạt | Gia đình chỉ nói “muốn homeschooling” nhưng chưa mô tả chức năng thay thế. |
+| Đạt | Có mục tiêu, lịch, tài nguyên, người hỗ trợ và hồ sơ học tập ban đầu. |
+| Xuất sắc | Có thêm tiêu chí dừng, phương án chuyển tiếp, phản hồi ngoài gia đình và tiếng nói của trẻ. |

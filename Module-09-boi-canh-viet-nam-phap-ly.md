@@ -36,7 +36,7 @@ Theo Luật Giáo dục 2019, chương trình giáo dục phổ thông quy đị
 ## 5. Nguồn cần đối chiếu
 
 - Luật Giáo dục 2019, số 43/2019/QH14, hiệu lực 01/07/2020.
-- Chương trình giáo dục phổ thông 2018 theo Thông tư 32/2018/TT-BGDĐT.
+- Chương trình giáo dục phổ thông 2018 theo Thông tư 32/2018/TT-BGDĐT và các văn bản sửa đổi/bổ sung sau đó; bản kiểm tra ngày 16/05/2026 ghi nhận có văn bản sửa đổi/bổ sung năm 2025 đối với một số nội dung chương trình.
 - Quy định về công nhận văn bằng, hợp tác giáo dục, kiểm định chất lượng và các hướng dẫn hiện hành của Bộ Giáo dục và Đào tạo.
 
 ## 6. Câu hỏi trước khi quyết định
@@ -49,3 +49,34 @@ Nếu dùng văn bằng/chứng chỉ nước ngoài, ai công nhận và trong 
 Nếu mô hình hiện tại không phù hợp sau 6 tháng, phương án B là gì?
 ```
 
+## 7. Tình huống ứng dụng
+
+Một trung tâm quảng cáo “homeschool chuẩn Mỹ, học tại Việt Nam, bằng quốc tế được công nhận”. Gia đình muốn cho con nghỉ trường Việt Nam để theo học. Khi hỏi cụ thể, trung tâm chỉ cung cấp chứng nhận hoàn thành khóa học, chưa làm rõ tư cách trường, kiểm định, điều kiện dự thi, công nhận văn bằng và khả năng chuyển tiếp.
+
+**Vấn đề thật:** gia đình đang đứng trước rủi ro thông tin bất cân xứng. Cần phân biệt chương trình học, dịch vụ hỗ trợ, cơ sở giáo dục, văn bằng, chứng chỉ và công nhận pháp lý.
+
+## 8. Mô hình tư duy: 5 tầng pháp lý/chuyển tiếp
+
+| Tầng | Câu hỏi | Bằng chứng cần yêu cầu |
+|---|---|---|
+| Nghĩa vụ học tập | Trẻ có đang đáp ứng yêu cầu phổ cập/chuyển cấp không? | Văn bản, xác nhận từ trường/cơ quan có thẩm quyền. |
+| Tư cách đơn vị | Đơn vị là trường, trung tâm hay nền tảng học? | Giấy phép, kiểm định, pháp nhân. |
+| Chương trình | Học theo chuẩn nào? | Khung chương trình, chuẩn đầu ra, cách đánh giá. |
+| Văn bằng/chứng chỉ | Ai cấp và dùng được ở đâu? | Điều kiện công nhận, tiền lệ tuyển sinh/chuyển tiếp. |
+| Hồ sơ | Gia đình giữ bằng chứng gì? | Học bạ, portfolio, bảng điểm, nhận xét, sản phẩm. |
+
+## 9. Workflow kiểm tra trước quyết định lớn
+
+1. Yêu cầu mọi cam kết công nhận bằng văn bản.
+2. Tách quảng cáo thành các mệnh đề có thể kiểm chứng.
+3. Hỏi trường/cơ quan/chuyên gia độc lập về đường chuyển tiếp.
+4. So sánh ít nhất hai phương án: chính quy, hybrid, quốc tế, tự học.
+5. Không rút khỏi hệ hiện tại cho đến khi có phương án B rõ.
+
+## 10. Rubric đầu ra
+
+| Mức | Dấu hiệu |
+|---|---|
+| Chưa đạt | Tin vào lời tư vấn bán hàng hoặc kinh nghiệm truyền miệng. |
+| Đạt | Có kiểm tra nguồn chính thức và hiểu rủi ro chuyển tiếp. |
+| Xuất sắc | Có ma trận pháp lý, hồ sơ bằng chứng, xác nhận độc lập, điều kiện dừng và phương án quay lại. |
