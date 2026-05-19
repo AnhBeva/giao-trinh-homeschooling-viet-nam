@@ -58,6 +58,9 @@ Trẻ học lịch sử bằng cách đọc 10 trang sách rồi trả lời câ
 
 **Vấn đề thật:** thiết kế học tập chỉ yêu cầu nhận diện thông tin, chưa có truy hồi, gắn nghĩa, kể lại, so sánh và sử dụng kiến thức trong bối cảnh mới.
 
+![Trẻ học nhiều nhưng chưa chuyển thành hiểu sâu và truy hồi bền vững](assets/visuals/module-03/01-scenario.png)
+*Caption: Hình này giúp phân biệt việc hoàn thành hoạt động học với việc tạo ra hiểu biết có thể nhớ lại, giải thích và dùng ở tình huống mới.*
+
 ## 7. Mô hình tư duy: Chuỗi học sâu
 
 | Bước | Câu hỏi | Dấu hiệu |
@@ -68,6 +71,9 @@ Trẻ học lịch sử bằng cách đọc 10 trang sách rồi trả lời câ
 | Phản hồi | Sai ở đâu, sửa thế nào? | Có phiên bản sửa. |
 | Chuyển giao | Trẻ dùng được ở tình huống khác không? | So sánh, giải thích, ứng dụng. |
 
+![Chuỗi học sâu gồm chú ý, gắn nghĩa, truy hồi, phản hồi và chuyển giao](assets/visuals/module-03/02-mechanism-model.png)
+*Caption: Chuỗi cơ chế này cho thấy một bài học tốt không dừng ở tiếp nhận thông tin; nó phải đi đến truy hồi, phản hồi và chuyển giao.*
+
 ## 8. Workflow thiết kế một buổi học
 
 1. Viết một câu hỏi trung tâm.
@@ -76,6 +82,9 @@ Trẻ học lịch sử bằng cách đọc 10 trang sách rồi trả lời câ
 4. Cho một bài tập nhỏ có lỗi có thể sửa.
 5. Phản hồi một điểm quan trọng nhất.
 6. Kết thúc bằng câu: “Con sẽ dùng điều này ở đâu?”
+
+![Workflow thiết kế một buổi học ngắn có truy hồi và phản hồi](assets/visuals/module-03/03-workflow-practice.png)
+*Caption: Hình này giúp phụ huynh nhớ trình tự tối thiểu của một buổi học sâu: câu hỏi, giải thích ngắn, kể lại, sửa lỗi và ứng dụng.*
 
 ## 9. Rubric đầu ra
 

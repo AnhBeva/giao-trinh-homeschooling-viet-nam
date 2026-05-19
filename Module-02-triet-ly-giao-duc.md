@@ -65,6 +65,9 @@ Phụ huynh nói muốn con “học tự do, không áp lực”, nhưng vẫn 
 
 **Vấn đề thật:** triết lý tuyên bố và hệ vận hành mâu thuẫn. Gia đình đang dùng ngôn ngữ tự do nhưng thiết kế bằng nỗi sợ tụt chuẩn.
 
+![Mâu thuẫn giữa triết lý tự do học tập và lịch học quá tải](assets/visuals/module-02/01-scenario.png)
+*Caption: Hình này giúp người học nhìn thấy khoảng cách giữa điều gia đình nói là giá trị giáo dục và điều lịch học thực sự đang ép trẻ sống mỗi ngày.*
+
 ## 7. Mô hình tư duy: Tam giác triết lý
 
 | Đỉnh | Câu hỏi | Nếu lệch |
@@ -73,6 +76,9 @@ Phụ huynh nói muốn con “học tự do, không áp lực”, nhưng vẫn 
 | Mục tiêu | Ta tối ưu năng lực, phẩm chất, chứng chỉ hay hạnh phúc? | Chương trình bị kéo về nhiều hướng. |
 | Thực hành | Lịch, phản hồi, kỷ luật có phản ánh triết lý không? | Trẻ nghe một đằng, sống một nẻo. |
 
+![Tam giác triết lý gồm hình ảnh con người, mục tiêu và thực hành](assets/visuals/module-02/02-mechanism-model.png)
+*Caption: Tam giác nhắc rằng triết lý chỉ có giá trị khi hình ảnh về trẻ, mục tiêu giáo dục và hành vi hằng ngày khớp với nhau.*
+
 ## 8. Workflow hành động
 
 1. Viết tuyên bố triết lý 12 dòng.
@@ -80,6 +86,9 @@ Phụ huynh nói muốn con “học tự do, không áp lực”, nhưng vẫn 
 3. Chuyển mỗi từ thành hành vi quan sát được trong lịch tuần.
 4. Tìm mâu thuẫn giữa mục tiêu và lịch hiện tại.
 5. Chọn một mâu thuẫn để sửa trong 2 tuần.
+
+![Chuyển tuyên bố triết lý thành hành động quan sát được trong tuần học](assets/visuals/module-02/03-workflow-practice.png)
+*Caption: Người học dùng hình này như lời nhắc: mỗi giá trị trừu tượng phải được chuyển thành lựa chọn lịch, phản hồi, quyền chọn và giới hạn cụ thể.*
 
 ## 9. Bài tập phản hồi
 

@@ -60,6 +60,9 @@ Sau ba tháng homeschooling, phụ huynh nói con “tiến bộ nhiều” vì 
 
 **Vấn đề thật:** tiến bộ cảm nhận chưa được chuyển thành bằng chứng có thể kiểm tra. Thiếu portfolio làm giảm khả năng điều chỉnh và chuyển tiếp.
 
+![Từ cảm giác tiến bộ đến portfolio có bằng chứng kiểm tra được](assets/visuals/module-07/01-scenario.png)
+*Caption: Hình này giúp người học thấy vì sao cảm giác tiến bộ cần được chuyển thành sản phẩm, phản hồi và hồ sơ có thể trình bày với người ngoài gia đình.*
+
 ## 7. Mô hình tư duy: Bằng chứng ba lớp
 
 | Lớp | Câu hỏi | Ví dụ |
@@ -67,6 +70,9 @@ Sau ba tháng homeschooling, phụ huynh nói con “tiến bộ nhiều” vì 
 | Sản phẩm | Trẻ tạo ra gì? | Bài viết, bài giải, mô hình, thuyết trình. |
 | Quá trình | Trẻ đã sửa và học ra sao? | Bản nháp, phản hồi, phiên bản mới. |
 | Chuẩn | Sản phẩm đạt mức nào? | Rubric, bài chuẩn, nhận xét ngoài. |
+
+![Ba lớp bằng chứng trong portfolio: sản phẩm, quá trình và chuẩn](assets/visuals/module-07/02-mechanism-model.png)
+*Caption: Ba lớp bằng chứng giúp portfolio không chỉ là nơi lưu ảnh hoạt động, mà là hệ thống chứng minh tiến bộ và quyết định bước tiếp theo.*
 
 ## 8. Workflow portfolio 4 tuần
 
@@ -76,6 +82,9 @@ Sau ba tháng homeschooling, phụ huynh nói con “tiến bộ nhiều” vì 
 4. Yêu cầu phiên bản sửa tuần 3.
 5. Nhờ người ngoài gia đình nhận xét tuần 4.
 6. Viết kết luận: đạt gì, chưa đạt gì, bước tiếp theo.
+
+![Workflow portfolio bốn tuần từ mẫu đầu vào đến phản hồi ngoài gia đình](assets/visuals/module-07/03-workflow-practice.png)
+*Caption: Hình này giúp phụ huynh theo dõi một năng lực trong bốn tuần: mẫu đầu vào, luyện tập, phiên bản sửa, nhận xét ngoài và quyết định điều chỉnh.*
 
 ## 9. Rubric đầu ra
 

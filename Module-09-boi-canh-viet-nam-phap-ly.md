@@ -36,8 +36,8 @@ Theo Luật Giáo dục 2019, chương trình giáo dục phổ thông quy đị
 ## 5. Nguồn cần đối chiếu
 
 - Luật Giáo dục 2019, số 43/2019/QH14, hiệu lực 01/07/2020.
-- Chương trình giáo dục phổ thông 2018 theo Thông tư 32/2018/TT-BGDĐT và các văn bản sửa đổi/bổ sung sau đó; bản kiểm tra ngày 16/05/2026 ghi nhận có văn bản sửa đổi/bổ sung năm 2025 đối với một số nội dung chương trình.
-- Quy định về công nhận văn bằng, hợp tác giáo dục, kiểm định chất lượng và các hướng dẫn hiện hành của Bộ Giáo dục và Đào tạo.
+- Chương trình giáo dục phổ thông 2018 theo Thông tư 32/2018/TT-BGDĐT và Thông tư 17/2025/TT-BGDĐT sửa đổi, bổ sung một số nội dung chương trình.
+- Quy định về công nhận văn bằng do cơ sở giáo dục nước ngoài cấp để sử dụng tại Việt Nam theo Thông tư 13/2021/TT-BGDĐT, Thông tư 07/2024/TT-BGDĐT sửa đổi, bổ sung và hướng dẫn hiện hành của Bộ Giáo dục và Đào tạo/Cục Quản lý chất lượng.
 
 ## 6. Câu hỏi trước khi quyết định
 
@@ -55,6 +55,9 @@ Một trung tâm quảng cáo “homeschool chuẩn Mỹ, học tại Việt Nam
 
 **Vấn đề thật:** gia đình đang đứng trước rủi ro thông tin bất cân xứng. Cần phân biệt chương trình học, dịch vụ hỗ trợ, cơ sở giáo dục, văn bằng, chứng chỉ và công nhận pháp lý.
 
+![Rủi ro thông tin bất cân xứng khi chọn chương trình homeschooling quốc tế](assets/visuals/module-09/01-scenario.png)
+*Caption: Hình này giúp người học tách quảng cáo khỏi bằng chứng: chương trình, dịch vụ, văn bằng và công nhận pháp lý là các tầng khác nhau.*
+
 ## 8. Mô hình tư duy: 5 tầng pháp lý/chuyển tiếp
 
 | Tầng | Câu hỏi | Bằng chứng cần yêu cầu |
@@ -65,6 +68,9 @@ Một trung tâm quảng cáo “homeschool chuẩn Mỹ, học tại Việt Nam
 | Văn bằng/chứng chỉ | Ai cấp và dùng được ở đâu? | Điều kiện công nhận, tiền lệ tuyển sinh/chuyển tiếp. |
 | Hồ sơ | Gia đình giữ bằng chứng gì? | Học bạ, portfolio, bảng điểm, nhận xét, sản phẩm. |
 
+![Năm tầng cần kiểm tra trước quyết định pháp lý và chuyển tiếp](assets/visuals/module-09/02-mechanism-model.png)
+*Caption: Năm tầng nhắc rằng quyết định tại Việt Nam cần kiểm tra nghĩa vụ học tập, tư cách đơn vị, chương trình, văn bằng và hồ sơ chuyển tiếp.*
+
 ## 9. Workflow kiểm tra trước quyết định lớn
 
 1. Yêu cầu mọi cam kết công nhận bằng văn bản.
@@ -72,6 +78,9 @@ Một trung tâm quảng cáo “homeschool chuẩn Mỹ, học tại Việt Nam
 3. Hỏi trường/cơ quan/chuyên gia độc lập về đường chuyển tiếp.
 4. So sánh ít nhất hai phương án: chính quy, hybrid, quốc tế, tự học.
 5. Không rút khỏi hệ hiện tại cho đến khi có phương án B rõ.
+
+![Workflow kiểm tra cam kết pháp lý trước khi rút khỏi hệ học hiện tại](assets/visuals/module-09/03-workflow-practice.png)
+*Caption: Workflow này giúp gia đình biến lời quảng cáo thành mệnh đề kiểm chứng, yêu cầu văn bản, hỏi nguồn độc lập và giữ phương án B.*
 
 ## 10. Rubric đầu ra
 

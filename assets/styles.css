@@ -1,15 +1,16 @@
 :root {
   color-scheme: light;
-  --bg: #f6f4ef;
-  --surface: #fffdfa;
-  --surface-2: #ebe7df;
-  --ink: #1b1b1f;
-  --muted: #5f6368;
-  --line: #d8d2c8;
-  --accent: #0f766e;
-  --accent-2: #9a3412;
-  --shadow: 0 18px 50px rgba(31, 28, 23, 0.08);
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+  --lumi-green: #008B51;
+  --lumi-green-deep: #006B3F;
+  --lumi-mint: #E6F4EE;
+  --lumi-pale: #F3FAF6;
+  --text: #1F2933;
+  --muted: #4B5563;
+  --line: #DDE5E1;
+  --surface: #FFFFFF;
+  --surface-2: #F8FBF9;
+  --shadow: 0 20px 60px rgba(15, 40, 28, 0.08);
+  font-family: Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 * {
@@ -22,13 +23,13 @@ html {
 
 body {
   margin: 0;
-  background: var(--bg);
-  color: var(--ink);
+  background: linear-gradient(180deg, var(--lumi-pale), #fff 420px);
+  color: var(--text);
   line-height: 1.65;
 }
 
 a {
-  color: var(--accent);
+  color: var(--lumi-green);
   text-decoration: none;
 }
 
@@ -44,15 +45,29 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 14px 28px;
-  border-bottom: 1px solid rgba(216, 210, 200, 0.88);
-  background: rgba(246, 244, 239, 0.92);
+  padding: 12px 28px;
+  border-bottom: 1px solid rgba(221, 229, 225, 0.92);
+  background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(18px);
 }
 
 .brand {
-  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--text);
   font-weight: 760;
+}
+
+.brand:hover {
+  text-decoration: none;
+}
+
+.brand-logo {
+  display: block;
+  height: 42px;
+  width: auto;
+  object-fit: contain;
 }
 
 .topbar nav {
@@ -83,12 +98,12 @@ a:hover {
   padding: 22px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: rgba(255, 253, 250, 0.72);
+  background: rgba(255, 255, 255, 0.78);
 }
 
 .eyebrow {
   margin: 0 0 8px;
-  color: var(--accent-2);
+  color: var(--lumi-green-deep);
   font-size: 13px;
   font-weight: 760;
   letter-spacing: 0;
@@ -112,12 +127,12 @@ a:hover {
   align-items: start;
   padding: 9px 8px;
   border-radius: 7px;
-  color: var(--ink);
+  color: var(--text);
   font-size: 14px;
 }
 
 .nav-list a:hover {
-  background: var(--surface-2);
+  background: var(--lumi-mint);
   text-decoration: none;
 }
 
@@ -136,17 +151,17 @@ main {
 }
 
 .hero h1 {
-  max-width: 960px;
+  max-width: 980px;
   margin: 0;
-  font-size: clamp(40px, 6vw, 76px);
-  line-height: 1.02;
+  font-size: clamp(40px, 6vw, 74px);
+  line-height: 1.03;
   letter-spacing: 0;
 }
 
 .lede {
-  max-width: 860px;
+  max-width: 900px;
   margin: 24px 0 0;
-  color: #34363a;
+  color: #34423b;
   font-size: 21px;
   line-height: 1.55;
 }
@@ -168,7 +183,7 @@ main {
 }
 
 .stats strong {
-  color: var(--ink);
+  color: var(--lumi-green-deep);
 }
 
 .module-grid {
@@ -184,7 +199,7 @@ main {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
-  color: var(--ink);
+  color: var(--text);
   box-shadow: var(--shadow);
 }
 
@@ -196,7 +211,7 @@ main {
 .module-card span {
   display: block;
   margin-bottom: 10px;
-  color: var(--accent-2);
+  color: var(--lumi-green);
   font-size: 13px;
   font-weight: 760;
 }
@@ -246,8 +261,32 @@ main {
 .lesson blockquote {
   margin: 18px 0;
   padding: 14px 18px;
-  border-left: 4px solid var(--accent);
-  background: #edf7f4;
+  border-left: 4px solid var(--lumi-green);
+  background: var(--lumi-mint);
+}
+
+.lesson-figure {
+  margin: 24px 0;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-2);
+}
+
+.lesson-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.lesson-figure figcaption {
+  padding: 10px 4px 2px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .table-wrap {
@@ -274,7 +313,7 @@ td {
 }
 
 th {
-  background: #f1eee7;
+  background: var(--lumi-mint);
   font-weight: 760;
 }
 
@@ -321,6 +360,10 @@ hr {
     padding: 12px 16px;
   }
 
+  .brand-logo {
+    height: 34px;
+  }
+
   .hero h1 {
     font-size: 38px;
   }
@@ -355,4 +398,3 @@ hr {
     box-shadow: none;
   }
 }
-

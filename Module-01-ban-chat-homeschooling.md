@@ -70,6 +70,9 @@ Một gia đình muốn rút con lớp 5 khỏi trường vì con chán học, s
 
 **Cách nhìn mới:** quyết định không phải “trường hay nhà”, mà là “chức năng giáo dục nào đang hỏng, chức năng nào cần thay thế, và bằng chứng nào bảo vệ quyền lợi trẻ”.
 
+![Gia đình lập kế hoạch homeschooling như một hệ thống trách nhiệm](assets/visuals/module-01/01-scenario.png)
+*Caption: Hình này đặt người học vào bối cảnh quyết định thật: homeschooling không bắt đầu bằng việc mua tài liệu, mà bằng việc phân vai trách nhiệm quanh trẻ.*
+
 ## 7. Mô hình tư duy: 6 chức năng phải thay thế
 
 | Chức năng | Câu hỏi kiểm tra | Bằng chứng cần có |
@@ -81,6 +84,9 @@ Một gia đình muốn rút con lớp 5 khỏi trường vì con chán học, s
 | Xã hội hóa | Trẻ sống cùng ai ngoài gia đình? | Lịch nhóm, hoạt động, quan hệ. |
 | Chuyển tiếp | Nếu đổi hướng thì đi đâu? | Hồ sơ, trường liên hệ, chứng chỉ. |
 
+![Sáu chức năng giáo dục gia đình cần thay thế hoặc tái thiết](assets/visuals/module-01/02-mechanism-model.png)
+*Caption: Sáu nút quanh người học nhắc rằng homeschooling là một hệ thống: mục tiêu, chương trình, nhịp học, phản hồi, xã hội hóa và chuyển tiếp phải cùng vận hành.*
+
 ## 8. Workflow hành động
 
 1. Ghi vấn đề thật bằng dữ kiện, không dùng nhãn cảm xúc.
@@ -88,6 +94,9 @@ Một gia đình muốn rút con lớp 5 khỏi trường vì con chán học, s
 3. Chọn 2 chức năng yếu nhất để xử lý trước khi rút khỏi trường dài hạn.
 4. Chạy thử 4 tuần với lịch nhẹ và portfolio.
 5. Quyết định tiếp tục, hybrid hay quay lại trường dựa trên dữ kiện.
+
+![Workflow thử nghiệm bốn tuần trước khi cam kết homeschooling dài hạn](assets/visuals/module-01/03-workflow-practice.png)
+*Caption: Workflow bốn tuần giúp gia đình biến quyết định lớn thành thử nghiệm có dữ kiện, sản phẩm học tập và điểm rà soát rõ ràng.*
 
 ## 9. Rubric đầu ra
 

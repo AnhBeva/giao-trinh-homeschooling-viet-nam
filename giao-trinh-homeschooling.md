@@ -44,6 +44,16 @@ Mỗi module nên được học theo 5 bước:
 4. Tự chấm bằng rubric, rồi nhờ một người ngoài gia đình phản hồi.
 5. Ghi lại quyết định tiếp theo, rủi ro còn lại và bằng chứng sẽ theo dõi.
 
+## Cách dùng hình ảnh trong mỗi module
+
+Mỗi module có ba hình trực quan:
+
+| Loại hình | Cách dùng |
+|---|---|
+| Tình huống | Nhìn bối cảnh, áp lực, dữ kiện thiếu và con người liên quan trước khi đọc lý thuyết. |
+| Cơ chế/mô hình | Dùng để nhớ khung phân tích, sau đó quay lại bảng trong bài để đọc chi tiết. |
+| Workflow/practice | Dùng như lời nhắc trình tự hành động khi tạo sản phẩm học tập của module. |
+
 ## Lộ trình theo mục tiêu
 
 | Mục tiêu người học | Nên học module nào | Kết quả mong đợi |

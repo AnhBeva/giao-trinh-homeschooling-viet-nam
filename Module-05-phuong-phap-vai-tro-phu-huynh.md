@@ -62,6 +62,9 @@ Phụ huynh giỏi tiếng Anh nên tự dạy con mọi buổi. Sau vài tuần
 
 **Vấn đề thật:** phụ huynh nhầm năng lực chuyên môn với năng lực dạy học và nhầm quan hệ cha mẹ - con với quan hệ giáo viên - học sinh. Trong homeschooling, vai trò phải được thiết kế, không mặc định.
 
+![Khi phụ huynh ôm toàn bộ vai trò dạy học, quan hệ gia đình dễ bị căng](assets/visuals/module-05/01-scenario.png)
+*Caption: Hình này nhắc rằng phụ huynh không cần trở thành giáo viên mọi môn; việc quan trọng hơn là thiết kế đúng vai trò và nguồn phản hồi.*
+
 ## 7. Mô hình tư duy: Ma trận vai trò
 
 | Nhiệm vụ | Phụ huynh làm | Mentor làm | Trẻ làm | Nhóm bạn làm |
@@ -71,6 +74,9 @@ Phụ huynh giỏi tiếng Anh nên tự dạy con mọi buổi. Sau vài tuần
 | Phản hồi | Quan sát thói quen. | Sửa kỹ thuật. | Tự sửa. | Phản hồi sản phẩm. |
 | Động lực | Giữ nhịp và quan hệ. | Tạo thử thách. | Chọn mục tiêu nhỏ. | Tạo cam kết xã hội. |
 
+![Ma trận vai trò giữa phụ huynh, mentor, trẻ và nhóm bạn](assets/visuals/module-05/02-mechanism-model.png)
+*Caption: Bốn vai trò quanh người học cho thấy chất lượng homeschooling phụ thuộc vào phân vai, không phụ thuộc vào việc một người lớn làm tất cả.*
+
 ## 8. Workflow chọn phương pháp
 
 1. Gọi tên mục tiêu học: biết, hiểu, làm, tạo sản phẩm hay hình thành thói quen.
@@ -79,6 +85,9 @@ Phụ huynh giỏi tiếng Anh nên tự dạy con mọi buổi. Sau vài tuần
 4. Quyết định ai là người dạy/phản hồi tốt nhất.
 5. Thiết kế một vòng học ngắn: dạy, làm, phản hồi, sửa.
 6. Đo xem quan hệ và kết quả có tốt hơn không.
+
+![Workflow chọn phương pháp và phân vai theo mục tiêu học tập](assets/visuals/module-05/03-workflow-practice.png)
+*Caption: Hình này hỗ trợ phụ huynh chọn phương pháp theo mục tiêu, lỗi thường gặp và người phản hồi phù hợp thay vì theo trào lưu.*
 
 ## 9. Rubric đầu ra
 

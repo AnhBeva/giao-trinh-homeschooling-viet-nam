@@ -38,10 +38,13 @@ def close_blocks(out: list[str], state: dict[str, bool]) -> None:
 
 
 def markdown_to_html(text: str) -> str:
+    lines = text.splitlines()
     out: list[str] = []
     state = {"code": False, "list": False, "ordered": False, "table": False, "table_header": False}
+    i = 0
 
-    for raw in text.splitlines():
+    while i < len(lines):
+        raw = lines[i]
         line = raw.rstrip()
 
         if line.startswith("```"):
@@ -52,20 +55,40 @@ def markdown_to_html(text: str) -> str:
                 close_blocks(out, state)
                 out.append("<pre><code>")
                 state["code"] = True
+            i += 1
             continue
 
         if state["code"]:
             out.append(html.escape(line) + "\n")
+            i += 1
             continue
 
         if not line.strip():
             close_blocks(out, state)
+            i += 1
+            continue
+
+        image_match = re.match(r"^!\[([^\]]*)\]\(([^)]+)\)$", line.strip())
+        if image_match:
+            close_blocks(out, state)
+            alt = html.escape(image_match.group(1))
+            src = html.escape(image_match.group(2))
+            figcaption = ""
+            if i + 1 < len(lines):
+                caption_line = lines[i + 1].strip()
+                caption_match = re.match(r"^\*(.+)\*$", caption_line)
+                if caption_match:
+                    figcaption = f"<figcaption>{inline_markdown(caption_match.group(1))}</figcaption>"
+                    i += 1
+            out.append(f'<figure class="lesson-figure"><img src="{src}" alt="{alt}" loading="lazy">{figcaption}</figure>')
+            i += 1
             continue
 
         if line.startswith("|") and line.endswith("|"):
             cells = [c.strip() for c in line.strip("|").split("|")]
             if all(re.fullmatch(r"[-: ]*", c) for c in cells):
                 state["table_header"] = False
+                i += 1
                 continue
             if not state["table"]:
                 close_blocks(out, state)
@@ -75,6 +98,7 @@ def markdown_to_html(text: str) -> str:
             tag = "th" if state["table_header"] else "td"
             out.append("<tr>" + "".join(f"<{tag}>{inline_markdown(c)}</{tag}>" for c in cells) + "</tr>")
             state["table_header"] = False
+            i += 1
             continue
 
         ordered_match = re.match(r"^(\d+)\. (.+)$", line)
@@ -84,6 +108,7 @@ def markdown_to_html(text: str) -> str:
                 out.append("<ol>")
                 state["ordered"] = True
             out.append(f"<li>{inline_markdown(ordered_match.group(2))}</li>")
+            i += 1
             continue
 
         if line.startswith("- "):
@@ -92,6 +117,7 @@ def markdown_to_html(text: str) -> str:
                 out.append("<ul>")
                 state["list"] = True
             out.append(f"<li>{inline_markdown(line[2:].strip())}</li>")
+            i += 1
             continue
 
         close_blocks(out, state)
@@ -111,6 +137,7 @@ def markdown_to_html(text: str) -> str:
             out.append("<hr>")
         else:
             out.append(f"<p>{inline_markdown(line)}</p>")
+        i += 1
 
     if state["code"]:
         out.append("</code></pre>")
@@ -170,7 +197,7 @@ def main() -> None:
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#top">Homeschooling Việt Nam</a>
+    <a class="brand" href="#top"><img class="brand-logo" src="assets/lumi-logo-2022.png" alt="Lumi"><span>Homeschooling Việt Nam</span></a>
     <nav aria-label="Liên kết nhanh">
       <a href="#ban-do-homeschooling">Bản đồ</a>
       <a href="#giao-trinh-homeschooling">Giáo trình</a>
@@ -194,7 +221,8 @@ def main() -> None:
         <div class="stats">
           <span><strong>{len(modules)}</strong> module chuyên sâu</span>
           <span><strong>6</strong> tài liệu nền tảng</span>
-          <span><strong>16/05/2026</strong> mốc cập nhật pháp lý</span>
+          <span><strong>30</strong> hình ảnh trực quan</span>
+          <span><strong>18/05/2026</strong> mốc cập nhật pháp lý</span>
         </div>
       </section>
       <section class="module-grid" aria-label="Danh sách module">{module_cards}</section>

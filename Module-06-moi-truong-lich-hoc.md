@@ -53,6 +53,9 @@ Gia đình có lịch học rất đẹp trên giấy: 8h toán, 9h tiếng Anh,
 
 **Vấn đề thật:** lịch được thiết kế như thời khóa biểu lý tưởng, chưa phải hệ vận hành trong gia đình thật với năng lượng, nhiễu, việc nhà và cảm xúc.
 
+![Lịch học lý tưởng va chạm với nhịp sống thật của gia đình](assets/visuals/module-06/01-scenario.png)
+*Caption: Hình này giúp người học nhìn homeschooling như một nhịp sống cần vận hành trong gia đình thật, không phải thời khóa biểu hoàn hảo trên giấy.*
+
 ## 7. Mô hình tư duy: Lịch bền vững
 
 | Thành phần | Câu hỏi | Chuẩn tốt |
@@ -63,6 +66,9 @@ Gia đình có lịch học rất đẹp trên giấy: 8h toán, 9h tiếng Anh,
 | Quan hệ | Lịch có phá quan hệ không? | Có giờ kết nối không đánh giá. |
 | Phục hồi | Cơ thể có được nghỉ không? | Ngủ, vận động, chơi tự do. |
 
+![Các thành phần của lịch học bền vững: năng lượng, ma sát, dự phòng, quan hệ và phục hồi](assets/visuals/module-06/02-mechanism-model.png)
+*Caption: Mô hình này nhắc rằng lịch bền vững phải tính đến năng lượng, độ ma sát, thời gian dự phòng, quan hệ và phục hồi.*
+
 ## 8. Workflow thiết kế lịch 4 tuần
 
 1. Ghi lại nhịp thật của gia đình trong 3 ngày.
@@ -70,6 +76,9 @@ Gia đình có lịch học rất đẹp trên giấy: 8h toán, 9h tiếng Anh,
 3. Đặt hoạt động xã hội và vận động trước khi lấp kín bằng môn học.
 4. Tạo “ngày nhẹ” để bù và phục hồi.
 5. Mỗi tối chỉ hỏi ba câu: xong gì, vướng gì, ngày mai giảm gì.
+
+![Workflow thiết kế lịch thử nghiệm bốn tuần có nền tảng, dự án, xã hội và phục hồi](assets/visuals/module-06/03-workflow-practice.png)
+*Caption: Hình này giúp gia đình chuyển từ lịch tham vọng sang lịch 4 tuần có ưu tiên tối thiểu, hoạt động xã hội, phục hồi và điểm rà soát.*
 
 ## 9. Rubric đầu ra
 

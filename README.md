@@ -22,7 +22,7 @@ Sau khi học, người học có thể:
 
 - Nội dung này là tài liệu giáo dục, không phải tư vấn pháp lý cá nhân. Với quyết định rút khỏi trường, chuyển hệ, công nhận văn bằng hoặc liên kết chương trình nước ngoài, cần kiểm tra văn bản hiện hành và hỏi cơ quan/chuyên gia có thẩm quyền.
 - Tại Việt Nam, homeschooling không nên được hiểu đơn giản là “không cần hệ thống”. Trẻ em vẫn có quyền học tập, quyền được bảo vệ và nhu cầu phát triển toàn diện; gia đình cần cơ chế chứng minh tiến bộ và an toàn.
-- Tài liệu cập nhật bối cảnh pháp lý theo thông tin kiểm tra ngày 16/05/2026.
+- Tài liệu cập nhật bối cảnh pháp lý theo thông tin kiểm tra ngày 18/05/2026.
 
 ## Cấu trúc nền tảng
 
@@ -34,6 +34,10 @@ Sau khi học, người học có thể:
 | [Bộ công cụ thực hành](cong-cu-thuc-hanh.md) | Mẫu ra quyết định, thiết kế tuần học, portfolio, đánh giá và rà soát rủi ro. |
 | [Khung năng lực và rubric](khung-nang-luc-va-rubric.md) | Chuẩn đầu ra xuất sắc: người học phải ra quyết định, thiết kế, vận hành và chứng minh được hiệu quả. |
 | `Module-01` đến `Module-10` | Bài học first-principles, có ví dụ, phản ví dụ và bài tập. |
+
+## Cách học bằng hình ảnh trực quan
+
+Phiên bản này bổ sung 30 hình ảnh học tập cho 10 module. Mỗi module có ba loại hình: tình huống thật để đặt vấn đề, cơ chế/mô hình để nhìn bản chất, và workflow/practice để chuyển hiểu biết thành hành động. Hình ảnh không thay thế nội dung chữ; chúng giúp người học nhìn cấu trúc nhanh hơn trước khi đọc sâu bảng, case và rubric.
 
 ## Chuẩn xuất sắc của phiên bản này
 
@@ -51,7 +55,8 @@ Người học không chỉ “biết về homeschooling”, mà phải tạo đ
 - Luật Giáo dục Việt Nam số 43/2019/QH14, hiệu lực từ 01/07/2020, đăng trên Công báo Chính phủ: https://congbao.chinhphu.vn/van-ban/luat-so-43-2019-qh14-29267.htm
 - Văn bản Luật Giáo dục 2019 được trình bày theo điều khoản, gồm quy định chương trình giáo dục phổ thông, xác nhận hoàn thành chương trình, công nhận văn bằng nước ngoài: https://vanbanphapluat.co/luat-giao-duc-sua-doi
 - OECD Learning Compass 2030 về năng lực người học, agency, well-being và năng lực chuyển hóa: https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html
-- Chương trình giáo dục phổ thông 2018 theo Thông tư 32/2018/TT-BGDĐT, có các văn bản sửa đổi/bổ sung sau đó, dùng làm chuẩn đối chiếu mục tiêu phẩm chất và năng lực; khi áp dụng cần kiểm tra bản hợp nhất hoặc văn bản mới nhất của Bộ Giáo dục và Đào tạo.
+- Chương trình giáo dục phổ thông 2018 theo Thông tư 32/2018/TT-BGDĐT, có Thông tư 17/2025/TT-BGDĐT sửa đổi, bổ sung một số nội dung chương trình; khi áp dụng cần kiểm tra bản hợp nhất hoặc văn bản mới nhất của Bộ Giáo dục và Đào tạo.
+- Quy định công nhận văn bằng do cơ sở giáo dục nước ngoài cấp để sử dụng tại Việt Nam theo Thông tư 13/2021/TT-BGDĐT và Thông tư 07/2024/TT-BGDĐT sửa đổi, bổ sung.
 
 ## Cách đọc
 
