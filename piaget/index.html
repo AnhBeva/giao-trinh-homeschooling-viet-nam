@@ -1,0 +1,1441 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ứng dụng Piaget 0-12 tuổi cho mẹ và cô giáo</title>
+    <meta
+      name="description"
+      content="Hướng dẫn thực hành ứng dụng bản chất Piaget vào dạy học và nuôi dạy trẻ từ 0 đến 12 tuổi cho mẹ và cô giáo."
+    />
+    <style>
+      :root {
+        --paper: #f7f6f2;
+        --white: #fffdf9;
+        --ink: #182024;
+        --muted: #526067;
+        --line: rgba(24, 32, 36, 0.14);
+        --green: #356d59;
+        --green-soft: #dce9df;
+        --blue: #235d92;
+        --blue-soft: #dceaf7;
+        --coral: #b44e44;
+        --coral-soft: #f5ded7;
+        --gold: #a57a20;
+        --gold-soft: #f3e6bf;
+        --shadow: 0 24px 80px rgba(16, 29, 33, 0.16);
+        --radius: 8px;
+        --content: min(1180px, calc(100vw - 48px));
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background:
+          linear-gradient(180deg, #fbfaf7 0%, var(--paper) 42%, #f0f4f4 100%);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+        letter-spacing: 0;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      button,
+      a {
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      .skip-link {
+        position: absolute;
+        left: 16px;
+        top: -64px;
+        z-index: 20;
+        padding: 12px 16px;
+        color: white;
+        background: var(--ink);
+        border-radius: var(--radius);
+        text-decoration: none;
+      }
+
+      .skip-link:focus {
+        top: 16px;
+      }
+
+      .site-nav {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.36);
+        background: rgba(251, 250, 247, 0.8);
+        backdrop-filter: blur(18px);
+      }
+
+      .nav-inner {
+        width: var(--content);
+        min-height: 72px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        min-width: 0;
+        text-decoration: none;
+      }
+
+      .brand-mark {
+        width: 36px;
+        height: 36px;
+        border: 1px solid rgba(24, 32, 36, 0.14);
+        border-radius: 8px;
+        display: grid;
+        place-items: center;
+        color: var(--green);
+        background:
+          linear-gradient(135deg, rgba(53, 109, 89, 0.16), rgba(35, 93, 146, 0.12)),
+          var(--white);
+        font-weight: 800;
+      }
+
+      .brand-copy {
+        display: grid;
+        gap: 2px;
+        min-width: 0;
+      }
+
+      .brand-copy strong,
+      .brand-copy span {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      .brand-copy strong {
+        font-size: 0.98rem;
+      }
+
+      .brand-copy span {
+        color: var(--muted);
+        font-size: 0.78rem;
+      }
+
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        overflow-x: auto;
+        scrollbar-width: none;
+      }
+
+      .nav-links::-webkit-scrollbar {
+        display: none;
+      }
+
+      .nav-links a {
+        flex: none;
+        min-height: 40px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 14px;
+        border-radius: 999px;
+        color: var(--muted);
+        text-decoration: none;
+        font-size: 0.92rem;
+      }
+
+      .nav-links a:hover,
+      .nav-links a:focus-visible {
+        color: var(--ink);
+        background: rgba(24, 32, 36, 0.07);
+        outline: none;
+      }
+
+      .hero {
+        position: relative;
+        min-height: min(80svh, 860px);
+        display: grid;
+        align-items: end;
+        overflow: hidden;
+        isolation: isolate;
+      }
+
+      .hero-media,
+      .hero-scrim {
+        position: absolute;
+        inset: 0;
+      }
+
+      .hero-media img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .hero-scrim {
+        background:
+          linear-gradient(90deg, rgba(10, 18, 21, 0.82) 0%, rgba(10, 18, 21, 0.58) 40%, rgba(10, 18, 21, 0.14) 72%, rgba(10, 18, 21, 0.06) 100%),
+          linear-gradient(180deg, rgba(10, 18, 21, 0.02) 20%, rgba(10, 18, 21, 0.52) 100%);
+      }
+
+      .hero-inner {
+        position: relative;
+        z-index: 1;
+        width: var(--content);
+        margin: 0 auto;
+        padding: clamp(42px, 8vh, 88px) 0;
+        display: grid;
+        gap: 24px;
+      }
+
+      .hero-copy {
+        width: min(650px, 100%);
+      }
+
+      .eyebrow {
+        margin: 0 0 18px;
+        color: rgba(255, 255, 255, 0.8);
+        text-transform: uppercase;
+        font-size: 0.82rem;
+        font-weight: 800;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        margin-bottom: 18px;
+        color: white;
+        font-size: clamp(2.6rem, 5vw, 5.5rem);
+        line-height: 0.98;
+        max-width: 760px;
+      }
+
+      .hero-copy > p {
+        max-width: 620px;
+        margin-bottom: 0;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: clamp(1.05rem, 1.65vw, 1.34rem);
+        line-height: 1.58;
+      }
+
+      .hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .hero-actions a {
+        min-height: 48px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 18px;
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        border-radius: 999px;
+        color: white;
+        background: rgba(255, 255, 255, 0.14);
+        text-decoration: none;
+        font-weight: 700;
+        backdrop-filter: blur(12px);
+      }
+
+      .hero-actions a:first-child {
+        color: var(--ink);
+        background: white;
+      }
+
+      .hero-actions a:hover,
+      .hero-actions a:focus-visible {
+        transform: translateY(-1px);
+        outline: none;
+      }
+
+      .hero-strip {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        width: min(860px, 100%);
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        border-radius: var(--radius);
+        background: rgba(16, 29, 33, 0.52);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(14px);
+      }
+
+      .hero-strip article {
+        min-height: 124px;
+        padding: 20px;
+      }
+
+      .hero-strip article + article {
+        border-left: 1px solid rgba(255, 255, 255, 0.16);
+      }
+
+      .hero-strip strong {
+        display: block;
+        margin-bottom: 10px;
+        color: white;
+        font-size: 1rem;
+      }
+
+      .hero-strip p {
+        margin-bottom: 0;
+        color: rgba(255, 255, 255, 0.78);
+        line-height: 1.5;
+      }
+
+      main {
+        width: var(--content);
+        margin: 0 auto;
+        padding: 42px 0 84px;
+      }
+
+      section {
+        scroll-margin-top: 96px;
+      }
+
+      .lead-grid,
+      .playbook-grid,
+      .scenario-grid,
+      .mistake-grid,
+      .checklist-layout {
+        display: grid;
+        gap: 20px;
+      }
+
+      .lead-grid {
+        grid-template-columns: 1.05fr 0.95fr;
+        align-items: start;
+      }
+
+      .section-head {
+        margin-bottom: 24px;
+      }
+
+      .section-head p {
+        max-width: 720px;
+        margin-bottom: 0;
+        color: var(--muted);
+        font-size: 1.08rem;
+        line-height: 1.65;
+      }
+
+      h2 {
+        margin-bottom: 12px;
+        font-size: clamp(1.8rem, 3vw, 3rem);
+        line-height: 1.08;
+      }
+
+      h3 {
+        margin-bottom: 10px;
+        font-size: 1.18rem;
+        line-height: 1.28;
+      }
+
+      .panel,
+      .age-card,
+      .scenario,
+      .mistake,
+      details {
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: rgba(255, 253, 249, 0.86);
+      }
+
+      .panel {
+        padding: clamp(22px, 3vw, 34px);
+      }
+
+      .core-note {
+        display: grid;
+        gap: 18px;
+        min-height: 100%;
+        color: white;
+        border: 0;
+        background:
+          linear-gradient(145deg, rgba(35, 93, 146, 0.92), rgba(53, 109, 89, 0.92)),
+          var(--blue);
+        box-shadow: var(--shadow);
+      }
+
+      .core-note p {
+        margin-bottom: 0;
+        font-size: clamp(1.28rem, 2.1vw, 2rem);
+        line-height: 1.42;
+      }
+
+      .core-note small {
+        display: block;
+        color: rgba(255, 255, 255, 0.76);
+        line-height: 1.6;
+      }
+
+      .concept-list,
+      .question-list,
+      .clean-list,
+      .mini-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .concept-list {
+        display: grid;
+        gap: 12px;
+      }
+
+      .concept-list li {
+        padding: 16px;
+        border-left: 4px solid var(--green);
+        background: rgba(220, 233, 223, 0.56);
+      }
+
+      .concept-list strong {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      .concept-list span,
+      .body-copy,
+      .clean-list li,
+      .mini-list li {
+        color: var(--muted);
+        line-height: 1.62;
+      }
+
+      .flow {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .flow span {
+        min-height: 100px;
+        display: grid;
+        align-content: start;
+        gap: 8px;
+        padding: 14px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--white);
+      }
+
+      .flow b {
+        width: 28px;
+        height: 28px;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        color: white;
+        background: var(--ink);
+        font-size: 0.86rem;
+      }
+
+      .flow em {
+        color: var(--muted);
+        font-style: normal;
+        line-height: 1.45;
+      }
+
+      .age-map {
+        margin-top: 52px;
+      }
+
+      .age-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .age-card {
+        padding: 24px;
+        display: grid;
+        gap: 18px;
+      }
+
+      .age-card:nth-child(1) {
+        background: linear-gradient(180deg, rgba(220, 233, 223, 0.82), rgba(255, 253, 249, 0.96));
+      }
+
+      .age-card:nth-child(2) {
+        background: linear-gradient(180deg, rgba(245, 222, 215, 0.86), rgba(255, 253, 249, 0.96));
+      }
+
+      .age-card:nth-child(3) {
+        background: linear-gradient(180deg, rgba(220, 234, 247, 0.92), rgba(255, 253, 249, 0.96));
+      }
+
+      .age-label {
+        display: inline-flex;
+        align-items: center;
+        width: fit-content;
+        min-height: 34px;
+        padding: 0 12px;
+        border: 1px solid rgba(24, 32, 36, 0.12);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.7);
+        font-size: 0.84rem;
+        font-weight: 800;
+      }
+
+      .age-card p,
+      .scenario p,
+      .mistake p,
+      details p {
+        margin-bottom: 0;
+        color: var(--muted);
+        line-height: 1.62;
+      }
+
+      .mini-list {
+        display: grid;
+        gap: 8px;
+      }
+
+      .mini-list li {
+        position: relative;
+        padding-left: 18px;
+      }
+
+      .mini-list li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.72em;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: currentColor;
+        opacity: 0.42;
+      }
+
+      .playbooks {
+        margin-top: 56px;
+      }
+
+      .playbook-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .playbook {
+        display: grid;
+        gap: 18px;
+      }
+
+      .playbook h3 {
+        margin-bottom: 0;
+      }
+
+      .playbook-block {
+        padding-top: 14px;
+        border-top: 1px solid var(--line);
+      }
+
+      .playbook-block strong {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+      }
+
+      .playbook .quote {
+        padding: 15px;
+        border-radius: var(--radius);
+        color: var(--ink);
+        background: rgba(243, 230, 191, 0.54);
+        line-height: 1.55;
+      }
+
+      .situation-kit {
+        margin-top: 56px;
+        padding: clamp(28px, 4vw, 48px);
+        border-radius: var(--radius);
+        color: white;
+        background:
+          linear-gradient(120deg, rgba(24, 32, 36, 0.96), rgba(34, 71, 87, 0.92)),
+          var(--ink);
+        box-shadow: var(--shadow);
+      }
+
+      .situation-kit .section-head p {
+        color: rgba(255, 255, 255, 0.76);
+      }
+
+      .kit-grid {
+        display: grid;
+        grid-template-columns: 0.92fr 1.08fr;
+        gap: 24px;
+        align-items: start;
+      }
+
+      .prompt-ladder {
+        display: grid;
+        gap: 10px;
+      }
+
+      .prompt-ladder li {
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        gap: 12px;
+        align-items: start;
+        list-style: none;
+        padding: 14px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: var(--radius);
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .prompt-ladder b {
+        width: 40px;
+        height: 40px;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        color: var(--ink);
+        background: white;
+      }
+
+      .prompt-ladder strong {
+        display: block;
+        margin-bottom: 4px;
+      }
+
+      .prompt-ladder span {
+        display: block;
+        color: rgba(255, 255, 255, 0.78);
+        line-height: 1.5;
+      }
+
+      .white-panel {
+        color: var(--ink);
+        background: rgba(255, 253, 249, 0.96);
+      }
+
+      .question-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .question-list li {
+        min-height: 84px;
+        padding: 14px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: white;
+        line-height: 1.5;
+      }
+
+      .question-list strong {
+        display: block;
+        margin-bottom: 5px;
+        color: var(--coral);
+        font-size: 0.84rem;
+        text-transform: uppercase;
+      }
+
+      .scenarios {
+        margin-top: 56px;
+      }
+
+      .scenario-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .scenario {
+        padding: 22px;
+        display: grid;
+        gap: 14px;
+      }
+
+      .scenario-tag {
+        width: fit-content;
+        padding: 7px 10px;
+        border-radius: 999px;
+        font-size: 0.78rem;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+
+      .scenario:nth-child(1) .scenario-tag,
+      .scenario:nth-child(4) .scenario-tag {
+        color: var(--green);
+        background: var(--green-soft);
+      }
+
+      .scenario:nth-child(2) .scenario-tag,
+      .scenario:nth-child(5) .scenario-tag {
+        color: var(--coral);
+        background: var(--coral-soft);
+      }
+
+      .scenario:nth-child(3) .scenario-tag,
+      .scenario:nth-child(6) .scenario-tag {
+        color: var(--blue);
+        background: var(--blue-soft);
+      }
+
+      .script-line {
+        padding: 13px 14px;
+        border-left: 3px solid var(--gold);
+        color: var(--ink);
+        background: rgba(243, 230, 191, 0.46);
+        line-height: 1.55;
+      }
+
+      .guardrail {
+        margin-top: 18px;
+        padding: 18px;
+        border: 1px solid rgba(180, 78, 68, 0.24);
+        border-radius: var(--radius);
+        background: rgba(245, 222, 215, 0.58);
+        line-height: 1.62;
+      }
+
+      .mistakes {
+        margin-top: 56px;
+      }
+
+      .mistake-grid {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+      }
+
+      .mistake {
+        padding: 20px;
+      }
+
+      .mistake b {
+        display: inline-grid;
+        place-items: center;
+        width: 32px;
+        height: 32px;
+        margin-bottom: 14px;
+        border-radius: 50%;
+        color: white;
+        background: var(--coral);
+      }
+
+      .checklist {
+        margin-top: 56px;
+      }
+
+      .checklist-layout {
+        grid-template-columns: 0.92fr 1.08fr;
+        align-items: start;
+      }
+
+      .check-grid {
+        display: grid;
+        gap: 10px;
+      }
+
+      .check-item {
+        min-height: 64px;
+        display: grid;
+        grid-template-columns: 24px 1fr;
+        gap: 12px;
+        align-items: start;
+        padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--white);
+      }
+
+      .check-box {
+        width: 24px;
+        height: 24px;
+        border: 2px solid rgba(24, 32, 36, 0.24);
+        border-radius: 6px;
+        background: white;
+      }
+
+      .check-item span:last-child {
+        line-height: 1.55;
+      }
+
+      details {
+        padding: 18px 20px;
+      }
+
+      details + details {
+        margin-top: 10px;
+      }
+
+      summary {
+        cursor: pointer;
+        font-weight: 800;
+        line-height: 1.45;
+      }
+
+      summary::marker {
+        color: var(--blue);
+      }
+
+      details p {
+        margin-top: 12px;
+      }
+
+      .source-note {
+        margin-top: 56px;
+        padding-top: 22px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        line-height: 1.65;
+      }
+
+      @media (max-width: 1040px) {
+        .lead-grid,
+        .kit-grid,
+        .checklist-layout {
+          grid-template-columns: 1fr;
+        }
+
+        .flow {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .age-grid,
+        .playbook-grid,
+        .scenario-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .mistake-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 760px) {
+        :root {
+          --content: min(100vw - 28px, 1180px);
+        }
+
+        .nav-inner {
+          min-height: 64px;
+          align-items: flex-start;
+          flex-direction: column;
+          justify-content: center;
+          gap: 10px;
+          padding: 12px 0;
+        }
+
+        .brand-copy span {
+          display: none;
+        }
+
+        .nav-links {
+          width: 100%;
+        }
+
+        .hero {
+          min-height: min(78svh, 720px);
+        }
+
+        .hero-media img {
+          object-position: 62% center;
+        }
+
+        .hero-scrim {
+          background:
+            linear-gradient(180deg, rgba(10, 18, 21, 0.18) 0%, rgba(10, 18, 21, 0.72) 44%, rgba(10, 18, 21, 0.92) 100%);
+        }
+
+        .hero-inner {
+          padding-bottom: 26px;
+        }
+
+        h1 {
+          font-size: clamp(2.35rem, 11vw, 4.4rem);
+        }
+
+        .question-list,
+        .flow {
+          grid-template-columns: 1fr;
+        }
+
+        .hero-strip {
+          display: none;
+        }
+
+        .mistake-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .panel,
+        .age-card,
+        .scenario {
+          padding: 20px;
+        }
+      }
+
+      @media print {
+        body {
+          background: white;
+        }
+
+        .site-nav,
+        .hero-actions {
+          display: none;
+        }
+
+        .hero {
+          min-height: auto;
+          color: var(--ink);
+        }
+
+        .hero-media,
+        .hero-scrim {
+          display: none;
+        }
+
+        .hero-inner {
+          width: 100%;
+          padding: 0 0 28px;
+        }
+
+        .hero-copy h1,
+        .hero-copy p,
+        .eyebrow,
+        .hero-strip strong,
+        .hero-strip p {
+          color: var(--ink);
+        }
+
+        .hero-strip,
+        .core-note,
+        .situation-kit {
+          color: var(--ink);
+          background: white;
+          box-shadow: none;
+        }
+
+        .hero-strip article + article {
+          border-color: var(--line);
+        }
+
+        main {
+          width: 100%;
+          padding: 0;
+        }
+
+        .panel,
+        .age-card,
+        .scenario,
+        .mistake,
+        details {
+          break-inside: avoid;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#noi-dung">Bỏ qua điều hướng</a>
+
+    <nav class="site-nav" aria-label="Điều hướng chính">
+      <div class="nav-inner">
+        <a class="brand" href="#top">
+          <span class="brand-mark" aria-hidden="true">P</span>
+          <span class="brand-copy">
+            <strong>Piaget 0-12</strong>
+            <span>Sổ tay thực hành cho mẹ và cô giáo</span>
+          </span>
+        </a>
+        <div class="nav-links">
+          <a href="#ban-chat">Bản chất</a>
+          <a href="#theo-tuoi">Theo tuổi</a>
+          <a href="#tinh-huong">Tình huống</a>
+          <a href="#checklist">Checklist</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" id="top">
+      <div class="hero-media">
+        <img
+          src="assets/piaget/piaget-learning-hero.png"
+          alt="Mẹ, cô giáo và trẻ em cùng khám phá nước, khối gỗ và đồ vật cảm giác trong một góc học tập sáng."
+        />
+      </div>
+      <div class="hero-scrim" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Hướng dẫn ứng dụng, không học vẹt lý thuyết</p>
+          <h1>Ứng dụng Piaget 0-12 tuổi</h1>
+          <p>
+            Dạy trẻ bằng cách hiểu trẻ đang nghĩ như thế nào, tạo trải nghiệm vừa sức,
+            để trẻ dự đoán, thử, sai an toàn, sửa cách hiểu và nói lại điều mình vừa học.
+          </p>
+        </div>
+        <div class="hero-actions">
+          <a href="#quy-trinh">Bắt đầu bằng quy trình 6 bước</a>
+          <a href="#theo-tuoi">Chọn độ tuổi của trẻ</a>
+        </div>
+        <div class="hero-strip" aria-label="Ba điều cần nhớ">
+          <article>
+            <strong>Trẻ không là người lớn thu nhỏ</strong>
+            <p>Mỗi giai đoạn có một cách nhìn, cách lý giải và cách học riêng.</p>
+          </article>
+          <article>
+            <strong>Hành động tạo ra hiểu biết</strong>
+            <p>Chạm, đo, xếp, đếm, so sánh và thử lại giúp kiến thức có gốc.</p>
+          </article>
+          <article>
+            <strong>Người lớn thiết kế điểm rơi</strong>
+            <p>Hỏi đúng câu, đưa đúng vật, chốt đúng lúc thay cho giảng quá sớm.</p>
+          </article>
+        </div>
+      </div>
+    </header>
+
+    <main id="noi-dung">
+      <section id="ban-chat">
+        <div class="section-head">
+          <h2>Bản chất Piaget trong một trang</h2>
+          <p>
+            Piaget không dạy mẹ và cô giáo biến mọi bài học thành một bài giảng dài.
+            Ông giúp ta thấy học tập là quá trình trẻ tự kiến tạo hiểu biết khi cách nghĩ
+            cũ gặp một tình huống mới không còn vừa khít.
+          </p>
+        </div>
+
+        <div class="lead-grid">
+          <article class="panel core-note">
+            <div>
+              <p>
+                Một câu để nhớ: trẻ học sâu khi tương tác với thế giới, không chỉ khi nghe
+                đáp án từ người lớn.
+              </p>
+            </div>
+            <small>
+              Khi trẻ nói sai, đó thường là dấu vết của "sơ đồ nhận thức" hiện tại.
+              Nhìn thấy cách trẻ đang nghĩ sẽ giúp ta dạy đúng điểm hơn.
+            </small>
+          </article>
+
+          <article class="panel">
+            <ul class="concept-list">
+              <li>
+                <strong>Sơ đồ nhận thức</strong>
+                <span>Khung hiểu biết trẻ đang dùng để đọc thế giới.</span>
+              </li>
+              <li>
+                <strong>Đồng hóa</strong>
+                <span>Trẻ kéo điều mới vào khung cũ, ví dụ gọi mèo là "chó".</span>
+              </li>
+              <li>
+                <strong>Điều tiết</strong>
+                <span>Trẻ sửa khung cũ khi trải nghiệm mới cho thấy nó chưa đủ.</span>
+              </li>
+              <li>
+                <strong>Cân bằng mới</strong>
+                <span>Trẻ giải thích được hiện tượng rõ hơn sau khi dự đoán và kiểm tra.</span>
+              </li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="panel" id="quy-trinh" style="margin-top: 20px">
+          <div class="section-head" style="margin-bottom: 0">
+            <h2 style="font-size: clamp(1.5rem, 2vw, 2.1rem)">Quy trình 6 bước dùng được mỗi ngày</h2>
+            <p>
+              Dùng cho hầu hết bài học và tình huống học từ 3 đến 12 tuổi. Với trẻ 0-2 tuổi,
+              giảm lời nói, tăng vật thật và thao tác cơ thể.
+            </p>
+          </div>
+          <div class="flow">
+            <span><b>1</b><strong>Gợi tình huống</strong><em>Chọn điều gần đời sống của trẻ.</em></span>
+            <span><b>2</b><strong>Hỏi dự đoán</strong><em>Để trẻ nói mình nghĩ gì trước.</em></span>
+            <span><b>3</b><strong>Cho thử</strong><em>Cầm, xếp, rót, đo, đóng vai, thử nghiệm.</em></span>
+            <span><b>4</b><strong>So sánh</strong><em>Cái gì giống, khác, đổi, không đổi?</em></span>
+            <span><b>5</b><strong>Giải thích</strong><em>Trẻ nói lại bằng lời, hình vẽ hoặc vật.</em></span>
+            <span><b>6</b><strong>Chốt gọn</strong><em>Người lớn đặt tên kiến thức sau trải nghiệm.</em></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="age-map" id="theo-tuoi">
+        <div class="section-head">
+          <h2>Chọn cách dạy theo cách trẻ đang tư duy</h2>
+          <p>
+            Độ tuổi là mốc tham khảo, không phải chiếc hộp đóng kín. Hãy quan sát trẻ có cần vật
+            thật, hình ảnh, câu chuyện hay đã sẵn sàng giải thích bằng lý lẽ rõ ràng hơn.
+          </p>
+        </div>
+
+        <div class="age-grid">
+          <article class="age-card">
+            <span class="age-label">0-2 tuổi | Cảm giác - vận động</span>
+            <div>
+              <h3>Trẻ học bằng cơ thể</h3>
+              <p>
+                Mắt nhìn, tay chạm, tai nghe, miệng nếm, người bò, tay thả và lặp lại hành động
+                nhiều lần để thấy "mình làm thì điều gì xảy ra".
+              </p>
+            </div>
+            <ul class="mini-list">
+              <li>Ưu tiên an toàn, vật thật, chất liệu, âm thanh và lặp lại.</li>
+              <li>Gọi tên sự vật và hành động ngắn gọn trong lúc trẻ đang trải nghiệm.</li>
+              <li>Hoạt động gợi ý: ú òa, thả bóng vào hộp, lắc xúc xắc, xếp cốc lớn nhỏ.</li>
+            </ul>
+          </article>
+
+          <article class="age-card">
+            <span class="age-label">2-7 tuổi | Tiền thao tác</span>
+            <div>
+              <h3>Trẻ nghĩ bằng hình ảnh và biểu tượng</h3>
+              <p>
+                Trẻ mạnh về ngôn ngữ, tưởng tượng, đóng vai và câu chuyện; nhưng vẫn dễ bị bề ngoài
+                đánh lừa và chưa dễ nhìn từ góc của người khác.
+              </p>
+            </div>
+            <ul class="mini-list">
+              <li>Dạy qua tranh, vật thật, kể chuyện, nhóm đồ vật và trò chơi đóng vai.</li>
+              <li>Hỏi trẻ quan sát lại thay vì chê câu trả lời "ngô nghê".</li>
+              <li>Hoạt động gợi ý: rót nước qua cốc khác dạng, phân loại lá, kể chuyện bằng tranh.</li>
+            </ul>
+          </article>
+
+          <article class="age-card">
+            <span class="age-label">7-12 tuổi | Thao tác cụ thể</span>
+            <div>
+              <h3>Trẻ bắt đầu lý giải logic</h3>
+              <p>
+                Trẻ có thể sắp xếp, phân loại, đo lường, theo dõi nguyên nhân - kết quả và giải thích
+                quy tắc tốt hơn khi quy tắc bám vào vật thật và tình huống quen.
+              </p>
+            </div>
+            <ul class="mini-list">
+              <li>Đi từ vật thật đến hình ảnh, ký hiệu rồi mới công thức.</li>
+              <li>Cho trẻ dự đoán, đo, kiểm chứng, chứng minh bằng đồ vật.</li>
+              <li>Hoạt động gợi ý: phân số bằng bánh/giấy, thể tích bằng đo nước, cây trồng theo ngày.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="playbooks">
+        <div class="section-head">
+          <h2>Playbook cho mẹ và cô giáo</h2>
+          <p>
+            Mỗi độ tuổi cần một cách "vào bài" khác nhau. Đây là bản rút gọn để dùng khi chuẩn bị
+            một hoạt động, một bài học ở lớp, hoặc một khoảnh khắc học trong gia đình.
+          </p>
+        </div>
+
+        <div class="playbook-grid">
+          <article class="panel playbook">
+            <div>
+              <span class="age-label">0-2 tuổi</span>
+              <h3>Từ trải nghiệm đến ngôn ngữ</h3>
+            </div>
+            <div class="playbook-block">
+              <strong>Làm</strong>
+              <ul class="mini-list">
+                <li>Đặt 2-3 đồ vật an toàn để trẻ chạm, thả, kéo, lắc, lặp lại.</li>
+                <li>Nói ngắn theo hành động: "Bóng rơi", "Nước lạnh", "Con lắc".</li>
+                <li>Cho trẻ có thời gian thử lại trước khi đổi hoạt động.</li>
+              </ul>
+            </div>
+            <div class="playbook-block">
+              <strong>Tránh</strong>
+              <p class="body-copy">Giảng dài, quá nhiều đồ cùng lúc, cấm đoán mọi hành động khám phá an toàn.</p>
+            </div>
+            <div class="quote">"Con thả bóng rồi. Bóng vào hộp. Con muốn thử lại không?"</div>
+          </article>
+
+          <article class="panel playbook">
+            <div>
+              <span class="age-label">2-7 tuổi</span>
+              <h3>Từ hình ảnh đến quan sát lại</h3>
+            </div>
+            <div class="playbook-block">
+              <strong>Làm</strong>
+              <ul class="mini-list">
+                <li>Dùng câu chuyện, đóng vai, tranh và vật thật để mở cửa ý niệm.</li>
+                <li>Cho trẻ nhóm, đếm, so sánh, kể lại theo cách của mình.</li>
+                <li>Tạo bất ngờ vừa sức: hai cốc nước cùng lượng nhưng hình dáng khác.</li>
+              </ul>
+            </div>
+            <div class="playbook-block">
+              <strong>Tránh</strong>
+              <p class="body-copy">Sửa sai quá nhanh, bắt trẻ lý giải trừu tượng khi chưa thấy và chưa thử.</p>
+            </div>
+            <div class="quote">"Con thấy cốc nào nhiều hơn? Mình thử rót lại để kiểm tra nhé."</div>
+          </article>
+
+          <article class="panel playbook">
+            <div>
+              <span class="age-label">7-12 tuổi</span>
+              <h3>Từ thao tác đến lập luận</h3>
+            </div>
+            <div class="playbook-block">
+              <strong>Làm</strong>
+              <ul class="mini-list">
+                <li>Cho trẻ lập dự đoán, đo bằng đơn vị chung, ghi kết quả và so sánh.</li>
+                <li>Yêu cầu trẻ chứng minh bằng vật, hình vẽ, bảng đo hoặc ví dụ thực tế.</li>
+                <li>Chốt công thức sau khi trẻ đã thấy nó sinh ra từ đâu.</li>
+              </ul>
+            </div>
+            <div class="playbook-block">
+              <strong>Tránh</strong>
+              <p class="body-copy">Dạy công thức trước bản chất rồi đánh giá trẻ bằng học thuộc.</p>
+            </div>
+            <div class="quote">"Con đoán hộp nào chứa nhiều hơn? Làm sao để chứng minh chắc hơn?"</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="situation-kit" id="tinh-huong">
+        <div class="section-head">
+          <h2>Bộ lọc 30 giây cho bất kỳ tình huống</h2>
+          <p>
+            Khi không biết nên dạy thế nào, dùng bộ lọc này để biến khoảnh khắc đời thường thành
+            một trải nghiệm học có mục tiêu và không ép trẻ học theo lối người lớn.
+          </p>
+        </div>
+
+        <div class="kit-grid">
+          <ol class="prompt-ladder">
+            <li>
+              <b>1</b>
+              <div>
+                <strong>Trẻ đang thấy gì?</strong>
+                <span>Bắt đầu từ vật thật, hiện tượng thật, vấn đề thật trước mắt.</span>
+              </div>
+            </li>
+            <li>
+              <b>2</b>
+              <div>
+                <strong>Trẻ đang nghĩ gì?</strong>
+                <span>Hỏi "vì sao con nghĩ vậy?" để thấy khung hiểu biết hiện tại.</span>
+              </div>
+            </li>
+            <li>
+              <b>3</b>
+              <div>
+                <strong>Trẻ có thể tự làm gì?</strong>
+                <span>Chọn một thao tác vừa sức: rót, đếm, xếp, đo, vẽ, đóng vai.</span>
+              </div>
+            </li>
+            <li>
+              <b>4</b>
+              <div>
+                <strong>Điều gì tạo mâu thuẫn vừa đủ?</strong>
+                <span>Đặt một câu hỏi khiến trẻ muốn kiểm tra, không làm trẻ choáng.</span>
+              </div>
+            </li>
+            <li>
+              <b>5</b>
+              <div>
+                <strong>Chốt điều gì sau cùng?</strong>
+                <span>Đặt tên kiến thức ngắn gọn sau khi trẻ đã có trải nghiệm.</span>
+              </div>
+            </li>
+          </ol>
+
+          <article class="panel white-panel">
+            <h3>Thư viện câu hỏi dùng ngay</h3>
+            <ul class="question-list">
+              <li><strong>Dự đoán</strong>Con nghĩ điều gì sẽ xảy ra?</li>
+              <li><strong>Quan sát</strong>Cái gì thay đổi? Cái gì không đổi?</li>
+              <li><strong>So sánh</strong>Hai cách này giống và khác ở đâu?</li>
+              <li><strong>Giải thích</strong>Vì sao con nghĩ như vậy?</li>
+              <li><strong>Chứng minh</strong>Con dùng đồ vật để cho mẹ/cô thấy được không?</li>
+              <li><strong>Mở rộng</strong>Nếu đổi điều kiện thì kết quả có khác không?</li>
+              <li><strong>Tự đánh giá</strong>Ban đầu con nghĩ gì, bây giờ con thấy gì mới?</li>
+              <li><strong>Chốt</strong>Con nói lại điều mình vừa học bằng một câu nhé.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="scenarios">
+        <div class="section-head">
+          <h2>Ứng dụng trong nhà, lớp học và đời sống</h2>
+          <p>
+            Tinh thần Piaget không nằm ở môn học nào riêng. Nó nằm ở việc biến câu hỏi, vật thật
+            và thao tác thành đường dẫn để trẻ tự hiểu.
+          </p>
+        </div>
+
+        <div class="scenario-grid">
+          <article class="scenario">
+            <span class="scenario-tag">Bếp ăn</span>
+            <h3>Nhiều - ít khi chia trái cây</h3>
+            <p>Đặt 5 miếng sát nhau và 5 miếng giãn xa. Để trẻ đoán hàng nào nhiều hơn rồi đếm lại.</p>
+            <div class="script-line">"Hàng này dài hơn. Vậy có chắc là nhiều hơn không? Mình đếm thử."</div>
+          </article>
+
+          <article class="scenario">
+            <span class="scenario-tag">Lớp mầm</span>
+            <h3>Lượng nước trong cốc cao và cốc thấp</h3>
+            <p>Rót cùng một lượng nước sang cốc khác dạng để trẻ quan sát và tự rót lại kiểm tra.</p>
+            <div class="script-line">"Hình dáng cốc đổi rồi. Lượng nước có đổi theo không?"</div>
+          </article>
+
+          <article class="scenario">
+            <span class="scenario-tag">Toán học</span>
+            <h3>Phân số bằng giấy và bánh</h3>
+            <p>Cho trẻ gấp, cắt và so sánh 1/2 với 1/4 trước khi viết ký hiệu và quy tắc.</p>
+            <div class="script-line">"Chia cho nhiều bạn hơn thì mỗi bạn nhận phần lớn hơn hay nhỏ hơn?"</div>
+          </article>
+
+          <article class="scenario">
+            <span class="scenario-tag">Khoa học</span>
+            <h3>Chìm - nổi trong chậu nước</h3>
+            <p>Chọn đá, lá, thìa và nút chai. Trẻ dự đoán, thả vào nước, đối chiếu kết quả.</p>
+            <div class="script-line">"Kết quả nào giống dự đoán? Kết quả nào làm con bất ngờ?"</div>
+          </article>
+
+          <article class="scenario">
+            <span class="scenario-tag">Đo lường</span>
+            <h3>Gang tay và thước đo</h3>
+            <p>Đo mặt bàn bằng gang tay của trẻ và người lớn để thấy vì sao cần đơn vị chuẩn.</p>
+            <div class="script-line">"Cùng một cái bàn mà kết quả khác. Vấn đề nằm ở đâu?"</div>
+          </article>
+
+          <article class="scenario">
+            <span class="scenario-tag">Thiên nhiên</span>
+            <h3>Hai chậu cây, hai điều kiện</h3>
+            <p>Cho trẻ theo dõi cây có đủ nước/ánh sáng và cây thiếu một điều kiện qua nhiều ngày.</p>
+            <div class="script-line">"Con dự đoán chậu nào thay đổi trước? Mình vẽ lại mỗi ngày."</div>
+          </article>
+        </div>
+
+        <div class="guardrail">
+          <strong>Khi tình huống là an toàn, cảm xúc hoặc xung đột:</strong>
+          ưu tiên giữ an toàn, giúp trẻ bình tĩnh và kết nối trước. Sau đó mới quay lại phần học:
+          trẻ đã thấy gì, nghĩ gì, lần sau có thể thử cách nào khác.
+        </div>
+      </section>
+
+      <section class="mistakes">
+        <div class="section-head">
+          <h2>Năm lỗi dễ mất tinh thần Piaget</h2>
+          <p>
+            Không cần biến nhà hay lớp thành phòng thí nghiệm. Chỉ cần tránh những lỗi làm trẻ mất
+            cơ hội tự xây dựng hiểu biết.
+          </p>
+        </div>
+
+        <div class="mistake-grid">
+          <article class="mistake">
+            <b>1</b>
+            <h3>Giảng đáp án quá sớm</h3>
+            <p>Trẻ nghe được kết luận nhưng không có trải nghiệm để neo kết luận đó.</p>
+          </article>
+          <article class="mistake">
+            <b>2</b>
+            <h3>Chơi mà không có mục tiêu</h3>
+            <p>Hoạt động hay cần dẫn đến quan sát, phân loại, so sánh hoặc giải thích.</p>
+          </article>
+          <article class="mistake">
+            <b>3</b>
+            <h3>Chốt bằng công thức trước</h3>
+            <p>Với trẻ nhỏ, vật thật và thao tác nên đi trước ký hiệu và công thức.</p>
+          </article>
+          <article class="mistake">
+            <b>4</b>
+            <h3>Sửa sai quá nhanh</h3>
+            <p>Câu trả lời sai cho biết trẻ đang dùng cách nghĩ nào để giải thích.</p>
+          </article>
+          <article class="mistake">
+            <b>5</b>
+            <h3>Áp độ tuổi cứng nhắc</h3>
+            <p>Quan sát năng lực thật của trẻ thay vì chỉ dựa vào con số trên giấy.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="checklist" id="checklist">
+        <div class="section-head">
+          <h2>Checklist trước khi dạy</h2>
+          <p>
+            Dùng phần này để soạn bài, chuẩn bị một góc hoạt động hoặc tự kiểm tra cách mình đang
+            đồng hành cùng trẻ.
+          </p>
+        </div>
+
+        <div class="checklist-layout">
+          <article class="panel">
+            <div class="check-grid">
+              <div class="check-item"><span class="check-box"></span><span>Tôi đã nhìn trẻ ở giai đoạn tư duy gần đúng chưa?</span></div>
+              <div class="check-item"><span class="check-box"></span><span>Kiến thức này có thể thành vật thật, tranh, trò chơi hay thí nghiệm không?</span></div>
+              <div class="check-item"><span class="check-box"></span><span>Trẻ có được dự đoán trước khi nghe đáp án không?</span></div>
+              <div class="check-item"><span class="check-box"></span><span>Trẻ có được tự thao tác, tự so sánh và tự giải thích không?</span></div>
+              <div class="check-item"><span class="check-box"></span><span>Câu hỏi của tôi có tạo bất ngờ vừa sức thay vì làm trẻ sợ sai không?</span></div>
+              <div class="check-item"><span class="check-box"></span><span>Tôi đã chốt ngắn gọn sau trải nghiệm chưa?</span></div>
+            </div>
+          </article>
+
+          <div>
+            <details open>
+              <summary>Khi trẻ trả lời sai, nói gì?</summary>
+              <p>
+                Thử: "Vì sao con nghĩ vậy?", "Mình có cách nào kiểm tra không?",
+                "Nếu đổi vật này thì kết quả có khác không?" Sai lầm là dữ liệu để dạy,
+                không phải dấu hiệu trẻ kém.
+              </p>
+            </details>
+            <details>
+              <summary>Khi bài học quá trừu tượng, làm gì?</summary>
+              <p>
+                Lùi về một bước: vật thật -> thao tác -> hình ảnh -> ký hiệu -> công thức.
+                Ví dụ trước diện tích, hãy lát ô vuông lên mặt bàn; trước thể tích, hãy đong nước
+                bằng cùng một cốc.
+              </p>
+            </details>
+            <details>
+              <summary>Khi trẻ mất hứng thú, làm gì?</summary>
+              <p>
+                Giảm độ khó, đưa tình huống về đời sống của trẻ, tăng quyền dự đoán và quyền thử.
+                Một câu hỏi gần gũi tốt hơn một bài giảng dài hơn.
+              </p>
+            </details>
+            <details>
+              <summary>Khi cần dạy một quy tắc, chốt thế nào?</summary>
+              <p>
+                Dùng ngôn ngữ gọn và bám vào điều trẻ vừa thấy. Ví dụ:
+                "Cùng một lượng nước, đổi cốc làm hình dáng đổi nhưng lượng nước chưa chắc đổi."
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <p class="source-note">
+        Trang này được biên soạn dựa trên tài liệu đính kèm
+        <strong>tai_lieu_dao_tao_phuong_phap_piaget.md</strong>, tập trung vào bản chất Piaget,
+        các giai đoạn 0-12 tuổi, đồng hóa - điều tiết, mẫu câu hỏi Socrates và quy trình dạy học
+        từ dự đoán đến thao tác và chốt kiến thức.
+      </p>
+    </main>
+  </body>
+</html>
